@@ -1,0 +1,61 @@
+repos:
+    -   repo: https://github.com/pre-commit/pre-commit-hooks
+        rev: v5.0.0
+        hooks:
+            -   id: check-docstring-first
+            -   id: check-executables-have-shebangs
+            -   id: check-merge-conflict
+            -   id: check-symlinks
+            -   id: check-xml
+            -   id: check-yaml
+            -   id: check-added-large-files
+                args: [--maxkb=10000]
+            -   id: check-toml
+            -   id: debug-statements
+            # -   id: double-quote-string-fixer
+            -   id: end-of-file-fixer
+            -   id: fix-encoding-pragma
+                args: [ --remove ]
+            -   id: forbid-new-submodules
+            -   id: pretty-format-json
+                args: [ --autofix, --indent=2 ]
+                exclude: (package-lock|tsconfig).json
+            -   id: requirements-txt-fixer
+            -   id: sort-simple-yaml
+            -   id: trailing-whitespace
+                args: [ --markdown-linebreak-ext=md ]
+
+    -   repo: local
+        hooks:
+            -   id: no-aws-secrets
+                name: No AWS secrets
+                description: Make sure we do not commit an AWS secret
+                entry: 'AWS_ACCESS_KEY_ID|AWS_SECRET_ACCESS_KEY'
+                language: pygrep
+                exclude: .pre-commit-config.yaml|/genomecentral/settings.py$|docker-compose.yml
+
+    -   repo: https://github.com/hhatto/autopep8
+        rev: v2.3.1
+        hooks:
+            -   id: autopep8
+                exclude: /migrations/\d{4}_\w+\.py$
+
+    -   repo: https://github.com/pycqa/isort
+        rev: 5.13.2
+        hooks:
+        -   id: isort
+            name: isort (python)
+            exclude: /migrations/\d{4}_\w+\.py$
+
+    -   repo: https://github.com/psf/black
+        rev: 24.10.0 # Replace by any tag/version: https://github.com/psf/black/tags
+        hooks:
+        -   id: black-jupyter # black (for python only)
+            language_version: python3 # Should be a command that runs python3.6+
+            exclude: /migrations/\d{4}_\w+\.py$
+
+    -   repo: https://github.com/pycqa/flake8
+        rev: 7.1.1
+        hooks:
+        -   id: flake8
+            exclude: /migrations/\d{4}_\w+\.py$
