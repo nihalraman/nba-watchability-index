@@ -75,8 +75,14 @@ WSGI_APPLICATION = "nba_watchability_index.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "nba_db",
+        "USER": "postgres",
+        "PASSWORD": "your_password",
+        # HOST is name of db service
+        "HOST": "db",
+        # use default postgres port
+        "PORT": 5432,
     }
 }
 
