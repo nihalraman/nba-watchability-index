@@ -10,3 +10,4 @@ docker compose build
 docker compose up -d
 docker compose exec api python manage.py migrate
 ```
+Access admin site at `http://0.0.0.0:8000/admin/`.
