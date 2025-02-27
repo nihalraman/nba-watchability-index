@@ -5,14 +5,14 @@ from django.db import models
 
 
 class City(models.Model):
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=20)
 
     def __str__(self):
         return self.name
 
 
 class Team(models.Model):
-    nickname = models.CharField(max_length=200)
+    nickname = models.CharField(max_length=20)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -20,8 +20,8 @@ class Team(models.Model):
 
 
 class Player(models.Model):
-    firstname = models.CharField(max_length=200)
-    lastname = models.CharField(max_length=200)
+    firstname = models.CharField(max_length=20)
+    lastname = models.CharField(max_length=20)
     teams = models.ManyToManyField(Team, through="PlayerTeam", related_name="players")
 
     def __str__(self):
@@ -43,20 +43,35 @@ class PlayerTeam(models.Model):
 
 
 class Game(models.Model):
-    home_team_id = models.ForeignKey(
-        Team, on_delete=models.CASCADE, related_name="home"
-    )
-    away_team_id = models.ForeignKey(
-        Team, on_delete=models.CASCADE, related_name="away"
-    )
+    """Individual game between home team and away team"""
+
+    home_team = models.ForeignKey(Team, on_delete=models.CASCADE, related_name="home")
+    away_team = models.ForeignKey(Team, on_delete=models.CASCADE, related_name="away")
     date = models.DateField()
 
 
 class PlayerGameScore(models.Model):
     """Number of points scored by a player in a given game"""
 
-    player_id = models.ForeignKey(Player, on_delete=models.CASCADE)
-    game_id = models.ForeignKey(Game, on_delete=models.CASCADE)
+    player = models.ForeignKey(Player, on_delete=models.CASCADE)
+    game = models.ForeignKey(Game, on_delete=models.CASCADE)
     num_points = models.IntegerField(
         validators=[MinValueValidator(0), MaxValueValidator(200)]
+    )
+
+
+class Awards(models.Model):
+    name = models.CharField(max_length=30)
+
+    def __str__(self):
+        return self.name
+
+
+class PlayerAward(models.Model):
+    """Player winning an award"""
+
+    player = models.ForeignKey(Player, on_delete=models.CASCADE)
+    award = models.ForeignKey(Awards, on_delete=models.CASCADE)
+    year = models.IntegerField(
+        validators=[MinValueValidator(1950), MaxValueValidator(2100)]
     )
