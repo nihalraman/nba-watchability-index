@@ -7,16 +7,25 @@ from django.db import models
 class City(models.Model):
     name = models.CharField(max_length=200)
 
+    def __str__(self):
+        return self.name
+
 
 class Team(models.Model):
     nickname = models.CharField(max_length=200)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.city} {self.nickname}"
 
 
 class Player(models.Model):
     firstname = models.CharField(max_length=200)
     lastname = models.CharField(max_length=200)
     teams = models.ManyToManyField(Team, through="PlayerTeam", related_name="players")
+
+    def __str__(self):
+        return f"{self.firstname} {self.lastname}"
 
 
 class PlayerTeam(models.Model):
@@ -40,6 +49,7 @@ class Game(models.Model):
     away_team_id = models.ForeignKey(
         Team, on_delete=models.CASCADE, related_name="away"
     )
+    date = models.DateField()
 
 
 class PlayerGameScore(models.Model):
