@@ -1,0 +1,445 @@
+[
+  {
+    "fields": {
+      "name": "Atlanta"
+    },
+    "model": "data.city",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Boston"
+    },
+    "model": "data.city",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Brooklyn"
+    },
+    "model": "data.city",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "Charlotte"
+    },
+    "model": "data.city",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Chicago"
+    },
+    "model": "data.city",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Cleveland"
+    },
+    "model": "data.city",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Dallas"
+    },
+    "model": "data.city",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Denver"
+    },
+    "model": "data.city",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Detroit"
+    },
+    "model": "data.city",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Golden State"
+    },
+    "model": "data.city",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Houston"
+    },
+    "model": "data.city",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "name": "Indiana"
+    },
+    "model": "data.city",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "name": "Los Angeles"
+    },
+    "model": "data.city",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "name": "Memphis"
+    },
+    "model": "data.city",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "name": "Miami"
+    },
+    "model": "data.city",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "name": "Milwaukee"
+    },
+    "model": "data.city",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "name": "Minnesota"
+    },
+    "model": "data.city",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "name": "New Orleans"
+    },
+    "model": "data.city",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "name": "New York"
+    },
+    "model": "data.city",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "name": "Oklahoma City"
+    },
+    "model": "data.city",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "name": "Orlando"
+    },
+    "model": "data.city",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "name": "Philadelphia"
+    },
+    "model": "data.city",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "name": "Phoenix"
+    },
+    "model": "data.city",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "name": "Portland"
+    },
+    "model": "data.city",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "name": "Sacramento"
+    },
+    "model": "data.city",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "name": "San Antonio"
+    },
+    "model": "data.city",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "name": "Toronto"
+    },
+    "model": "data.city",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "name": "Utah"
+    },
+    "model": "data.city",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "name": "Washington"
+    },
+    "model": "data.city",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "city": 1,
+      "nickname": "Hawks"
+    },
+    "model": "data.team",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "city": 2,
+      "nickname": "Celtics"
+    },
+    "model": "data.team",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "city": 3,
+      "nickname": "Nets"
+    },
+    "model": "data.team",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "city": 4,
+      "nickname": "Hornets"
+    },
+    "model": "data.team",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "city": 5,
+      "nickname": "Bulls"
+    },
+    "model": "data.team",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "city": 6,
+      "nickname": "Cavs"
+    },
+    "model": "data.team",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "city": 7,
+      "nickname": "Mavericks"
+    },
+    "model": "data.team",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "city": 8,
+      "nickname": "Nuggets"
+    },
+    "model": "data.team",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "city": 9,
+      "nickname": "Pistons"
+    },
+    "model": "data.team",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "city": 10,
+      "nickname": "Warriors"
+    },
+    "model": "data.team",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "city": 11,
+      "nickname": "Rockets"
+    },
+    "model": "data.team",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "city": 12,
+      "nickname": "Pacers"
+    },
+    "model": "data.team",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "city": 13,
+      "nickname": "Lakers"
+    },
+    "model": "data.team",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "city": 13,
+      "nickname": "Clippers"
+    },
+    "model": "data.team",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "city": 14,
+      "nickname": "Grizzlies"
+    },
+    "model": "data.team",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "city": 15,
+      "nickname": "Heat"
+    },
+    "model": "data.team",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "city": 16,
+      "nickname": "Bucks"
+    },
+    "model": "data.team",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "city": 17,
+      "nickname": "Timberwolves"
+    },
+    "model": "data.team",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "city": 18,
+      "nickname": "Pelicans"
+    },
+    "model": "data.team",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "city": 19,
+      "nickname": "Knicks"
+    },
+    "model": "data.team",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "city": 20,
+      "nickname": "Thunder"
+    },
+    "model": "data.team",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "city": 21,
+      "nickname": "Magic"
+    },
+    "model": "data.team",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "city": 22,
+      "nickname": "76ers"
+    },
+    "model": "data.team",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "city": 23,
+      "nickname": "Suns"
+    },
+    "model": "data.team",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "city": 24,
+      "nickname": "Blazers"
+    },
+    "model": "data.team",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "city": 25,
+      "nickname": "Kings"
+    },
+    "model": "data.team",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "city": 26,
+      "nickname": "Spurs"
+    },
+    "model": "data.team",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "city": 27,
+      "nickname": "Raptors"
+    },
+    "model": "data.team",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "city": 28,
+      "nickname": "Jazz"
+    },
+    "model": "data.team",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "city": 29,
+      "nickname": "Wizards"
+    },
+    "model": "data.team",
+    "pk": 30
+  }
+]
