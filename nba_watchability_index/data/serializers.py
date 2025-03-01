@@ -23,11 +23,8 @@ class CitySerializer(serializers.ModelSerializer):
 
 
 class TeamSerializer(serializers.HyperlinkedModelSerializer):
-    city = serializers.HyperlinkedRelatedField(
-        queryset=City.objects.all(),
-        view_name="city-detail",  # This assumes you have a view named 'city-detail'
-        lookup_field="pk",
-    )
+
+    city = serializers.StringRelatedField()
 
     class Meta:
         model = Team
