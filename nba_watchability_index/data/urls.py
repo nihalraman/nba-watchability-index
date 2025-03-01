@@ -6,7 +6,8 @@ from . import views
 router = routers.DefaultRouter()
 # router.register(r'users', views.UserViewSet)
 # router.register(r'groups', views.GroupViewSet)
-router.register(r"teams", views.TeamViewSet)
+router.register(r"teams", views.TeamViewSet, basename="team")
+router.register(r"cities", views.CityViewSet)
 
 
 urlpatterns = [

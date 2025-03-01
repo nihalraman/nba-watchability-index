@@ -1,7 +1,7 @@
 from django.contrib.auth.models import Group, User
 from rest_framework import serializers
 
-from .models import Team
+from .models import City, Team
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -16,7 +16,19 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         fields = ["url", "name"]
 
 
+class CitySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = City
+        fields = ["id", "name"]  # Include id and name for serialization
+
+
 class TeamSerializer(serializers.HyperlinkedModelSerializer):
+    city = serializers.HyperlinkedRelatedField(
+        queryset=City.objects.all(),
+        view_name="city-detail",  # This assumes you have a view named 'city-detail'
+        lookup_field="pk",
+    )
+
     class Meta:
         model = Team
         fields = ["nickname", "city"]
