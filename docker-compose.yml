@@ -17,9 +17,11 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.api
-    command: python /code/manage.py runserver 0.0.0.0:8000
+    entrypoint: /startup_scripts/entrypoint.sh
     volumes:
       - ./nba_watchability_index:/code
+      - ./startup_scripts:/startup_scripts
+      - .env:/code/.env
     ports:
       - 8000:8000
     depends_on:

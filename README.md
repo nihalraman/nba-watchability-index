@@ -5,11 +5,11 @@ A web app to assess watchability of NBA games.
 
 Get it started:
 
+- Create .env file with 'DEFAULT_PASSWORD={your_password_here}'
+
 ```
 docker compose build
 docker compose up -d
-docker compose exec api python manage.py migrate
-docker compose exec api python manage.py loaddata initial_data
 ```
 Browse API at `http://0.0.0.0:8000/data/`.
 
@@ -24,8 +24,3 @@ docker compose exec api python manage.py migrate
 ```
 
 You may also need to delete any file in the /app/migrations folder EXCEPT for `__init__.py` and rerun `docker compose`.
-
-
-## Troubleshooting
-
-If API isn't browsable, you may need to restart the docker container.

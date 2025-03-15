@@ -4,16 +4,11 @@ from rest_framework import serializers
 from .models import City, Team
 
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = User
-        fields = ["url", "username", "email", "groups"]
-
-
-class GroupSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Group
-        fields = ["url", "name"]
+        fields = ["id", "username"]
 
 
 class CitySerializer(serializers.ModelSerializer):
@@ -23,7 +18,7 @@ class CitySerializer(serializers.ModelSerializer):
         fields = ["id", "name", "actual_city_name", "population"]
 
 
-class TeamSerializer(serializers.HyperlinkedModelSerializer):
+class TeamSerializer(serializers.ModelSerializer):
 
     city = serializers.StringRelatedField()
 

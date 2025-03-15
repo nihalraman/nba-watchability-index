@@ -1,31 +1,19 @@
-from rest_framework import generics
+from django.contrib.auth.models import User
+from rest_framework import generics, permissions
 from rest_framework.exceptions import NotFound
 
 from .models import City, Team
 from .serializers import CitySerializer, TeamSerializer, UserSerializer
 
-# def index(request):
-#     return HttpResponse("Hello, world. You're at the nba index.")
+
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
 
-# class CityViewSet(viewsets.ModelViewSet):
-#     """
-#     API endpoint that allows cities to be viewed or edited.
-#     """
-
-#     queryset = City.objects.all()
-#     serializer_class = CitySerializer
-#     permission_classes = [permissions.IsAuthenticated]
-
-
-# class TeamViewSet(viewsets.ModelViewSet):
-#     """
-#     API endpoint that allows teams to be viewed or edited.
-#     """
-
-#     queryset = Team.objects.all()
-#     serializer_class = TeamSerializer
-#     permission_classes = [permissions.IsAuthenticated]
+class UserDetail(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
 
 class CityList(generics.ListAPIView):
@@ -40,6 +28,7 @@ class CityDetail(generics.RetrieveAPIView):
 
     queryset = City.objects.all()
     serializer_class = CitySerializer
+    permission_classes = [permissions.IsAuthenticated]
 
     lookup_field = "city_name"  # The field to match the string against
 
