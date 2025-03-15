@@ -28,14 +28,14 @@ from .serializers import CitySerializer, TeamSerializer, UserSerializer
 #     permission_classes = [permissions.IsAuthenticated]
 
 
-class CityList(generics.ListCreateAPIView):
+class CityList(generics.ListAPIView):
     """Retrieve all cities, or create a new one."""
 
     queryset = City.objects.all()
     serializer_class = CitySerializer
 
 
-class CityDetail(generics.RetrieveUpdateDestroyAPIView):
+class CityDetail(generics.RetrieveAPIView):
     """Retrieve, update, or delete a specific city."""
 
     queryset = City.objects.all()
