@@ -1,7 +1,5 @@
-from django.http import HttpResponse, JsonResponse
-from django.views.decorators.csrf import csrf_exempt
-from rest_framework import permissions, viewsets
-from rest_framework.parsers import JSONParser
+from rest_framework import generics
+from rest_framework.exceptions import NotFound
 
 from .models import City, Team
 from .serializers import CitySerializer, TeamSerializer, UserSerializer
@@ -30,77 +28,39 @@ from .serializers import CitySerializer, TeamSerializer, UserSerializer
 #     permission_classes = [permissions.IsAuthenticated]
 
 
-def city_list(request):
-    """
-    Retrieve all cities, or create a new one.
-    """
-    if request.method == "GET":
-        # Retrieve all cities
-        cities = City.objects.all()
-        # Serialize all cities
-        serializer = CitySerializer(cities, many=True)
-        return JsonResponse(serializer.data, safe=False)
+class CityList(generics.ListCreateAPIView):
+    """Retrieve all cities, or create a new one."""
 
-    elif request.method == "POST":
-        # Handle city creation (if you want to support creating new cities via POST)
-        data = JSONParser().parse(request)
-        serializer = CitySerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            # Return the created city with a 201 status
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
+    queryset = City.objects.all()
+    serializer_class = CitySerializer
 
 
-def city_detail(request, city_id):
-    """
-    Retrieve, update, or delete a specific city.
-    """
-    try:
-        # Retrieve a single city by its ID
-        city = City.objects.get(pk=city_id)
-    except City.DoesNotExist:
-        return HttpResponse(status=404)
+class CityDetail(generics.RetrieveUpdateDestroyAPIView):
+    """Retrieve, update, or delete a specific city."""
 
-    if request.method == "GET":
-        # Serialize the single city object
-        serializer = CitySerializer(city)
-        return JsonResponse(serializer.data)
+    queryset = City.objects.all()
+    serializer_class = CitySerializer
 
-    elif request.method == "PUT":
-        # Parse the incoming JSON data for updates
-        data = JSONParser().parse(request)
-        serializer = CitySerializer(city, data=data)
+    lookup_field = "city_name"  # The field to match the string against
 
-        # Check if the data is valid and save it
-        if serializer.is_valid():
-            serializer.save()
-            return JsonResponse(serializer.data)
-        return JsonResponse(serializer.errors, status=400)
+    def get_object(self):
+        """
+        Override the default `get_object` method to retrieve a city by its name.
+        """
+        city_name = self.kwargs.get(
+            self.lookup_field
+        )  # Get the city name from URL parameter
+        # Perform a case-insensitive lookup, also ignore spaces in city names
+        for city in self.get_queryset():
+            if city.name.lower().replace(" ", "") == city_name.lower():
+                return city
 
-    elif request.method == "DELETE":
-        # Delete the city
-        city.delete()
-        return HttpResponse(status=204)
+        # if no city found, raise exception
+        raise NotFound(f"City with name '{city_name}' not found.")
 
 
-def team_list(request):
-    """
-    Retrieve all teams, or create a new one.
-    """
-    if request.method == "GET":
-        # Retrieve all cities
-        teams = Team.objects.all()
-        # Serialize all cities
-        serializer = TeamSerializer(teams, many=True)
-        return JsonResponse(serializer.data, safe=False)
+class TeamList(generics.ListCreateAPIView):
+    """Retrieve all teams, or create a new one."""
 
-    elif request.method == "POST":
-        # Handle city creation (if you want to support creating new cities via POST)
-        data = JSONParser().parse(request)
-        serializer = TeamSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save()
-            # Return the created city with a 201 status
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
+    queryset = Team.objects.all()
+    serializer_class = TeamSerializer

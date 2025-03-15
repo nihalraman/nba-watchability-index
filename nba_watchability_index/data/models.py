@@ -6,6 +6,10 @@ from django.db import models
 
 class City(models.Model):
     name = models.CharField(max_length=20)
+    population = models.IntegerField(default=0)
+    # if name is not a real city name (e.g., Golden State),
+    # 'actual_city_name' provides real city name (e.g., Golden State maps to San Francisco)
+    actual_city_name = models.CharField(max_length=20, null=True)
 
     def __str__(self):
         return self.name

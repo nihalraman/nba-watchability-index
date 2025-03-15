@@ -1,5 +1,6 @@
 from django.urls import include, path
 from rest_framework import routers
+from rest_framework.urlpatterns import format_suffix_patterns
 
 from . import views
 
@@ -12,7 +13,8 @@ router = routers.DefaultRouter()
 
 urlpatterns = [
     path("", include(router.urls)),
-    path("cities/", views.city_list),
-    path("teams/", views.team_list),
+    path("cities/", views.CityList.as_view()),
+    path("cities/<str:city_name>", views.CityDetail.as_view()),
+    path("teams/", views.TeamList.as_view()),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
 ]

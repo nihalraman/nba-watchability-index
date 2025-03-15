@@ -1,203 +1,261 @@
 [
   {
     "fields": {
-      "name": "Atlanta"
+      "actual_city_name": "Atlanta",
+      "name": "Atlanta",
+      "population": 498044
     },
     "model": "data.city",
     "pk": 1
   },
   {
     "fields": {
-      "name": "Boston"
+      "actual_city_name": "Boston",
+      "name": "Boston",
+      "population": 692600
     },
     "model": "data.city",
     "pk": 2
   },
   {
     "fields": {
-      "name": "Brooklyn"
+      "actual_city_name": "Brooklyn",
+      "name": "Brooklyn",
+      "population": 2648771
     },
     "model": "data.city",
     "pk": 3
   },
   {
     "fields": {
-      "name": "Charlotte"
+      "actual_city_name": "Charlotte",
+      "name": "Charlotte",
+      "population": 874579
     },
     "model": "data.city",
     "pk": 4
   },
   {
     "fields": {
-      "name": "Chicago"
+      "actual_city_name": "Chicago",
+      "name": "Chicago",
+      "population": 2716000
     },
     "model": "data.city",
     "pk": 5
   },
   {
     "fields": {
-      "name": "Cleveland"
+      "actual_city_name": "Cleveland",
+      "name": "Cleveland",
+      "population": 372624
     },
     "model": "data.city",
     "pk": 6
   },
   {
     "fields": {
-      "name": "Dallas"
+      "actual_city_name": "Dallas",
+      "name": "Dallas",
+      "population": 1341000
     },
     "model": "data.city",
     "pk": 7
   },
   {
     "fields": {
-      "name": "Denver"
+      "actual_city_name": "Denver",
+      "name": "Denver",
+      "population": 735538
     },
     "model": "data.city",
     "pk": 8
   },
   {
     "fields": {
-      "name": "Detroit"
+      "actual_city_name": "Detroit",
+      "name": "Detroit",
+      "population": 670031
     },
     "model": "data.city",
     "pk": 9
   },
   {
     "fields": {
-      "name": "Golden State"
+      "actual_city_name": "San Francisco",
+      "name": "Golden State",
+      "population": 870887
     },
     "model": "data.city",
     "pk": 10
   },
   {
     "fields": {
-      "name": "Houston"
+      "actual_city_name": "Houston",
+      "name": "Houston",
+      "population": 2328000
     },
     "model": "data.city",
     "pk": 11
   },
   {
     "fields": {
-      "name": "Indiana"
+      "actual_city_name": "Indianapolis",
+      "name": "Indiana",
+      "population": 879293
     },
     "model": "data.city",
     "pk": 12
   },
   {
     "fields": {
-      "name": "Los Angeles"
+      "actual_city_name": "Los Angeles",
+      "name": "Los Angeles",
+      "population": 3980400
     },
     "model": "data.city",
     "pk": 13
   },
   {
     "fields": {
-      "name": "Memphis"
+      "actual_city_name": "Memphis",
+      "name": "Memphis",
+      "population": 650618
     },
     "model": "data.city",
     "pk": 14
   },
   {
     "fields": {
-      "name": "Miami"
+      "actual_city_name": "Miami",
+      "name": "Miami",
+      "population": 470914
     },
     "model": "data.city",
     "pk": 15
   },
   {
     "fields": {
-      "name": "Milwaukee"
+      "actual_city_name": "Milwaukee",
+      "name": "Milwaukee",
+      "population": 590157
     },
     "model": "data.city",
     "pk": 16
   },
   {
     "fields": {
-      "name": "Minnesota"
+      "actual_city_name": "Minneapolis",
+      "name": "Minnesota",
+      "population": 425115
     },
     "model": "data.city",
     "pk": 17
   },
   {
     "fields": {
-      "name": "New Orleans"
+      "actual_city_name": "New Orleans",
+      "name": "New Orleans",
+      "population": 390144
     },
     "model": "data.city",
     "pk": 18
   },
   {
     "fields": {
-      "name": "New York"
+      "actual_city_name": "New York",
+      "name": "New York",
+      "population": 8419600
     },
     "model": "data.city",
     "pk": 19
   },
   {
     "fields": {
-      "name": "Oklahoma City"
+      "actual_city_name": "Oklahoma City",
+      "name": "Oklahoma City",
+      "population": 655057
     },
     "model": "data.city",
     "pk": 20
   },
   {
     "fields": {
-      "name": "Orlando"
+      "actual_city_name": "Orlando",
+      "name": "Orlando",
+      "population": 287442
     },
     "model": "data.city",
     "pk": 21
   },
   {
     "fields": {
-      "name": "Philadelphia"
+      "actual_city_name": "Philadelphia",
+      "name": "Philadelphia",
+      "population": 1584200
     },
     "model": "data.city",
     "pk": 22
   },
   {
     "fields": {
-      "name": "Phoenix"
+      "actual_city_name": "Phoenix",
+      "name": "Phoenix",
+      "population": 1680992
     },
     "model": "data.city",
     "pk": 23
   },
   {
     "fields": {
-      "name": "Portland"
+      "actual_city_name": "Portland",
+      "name": "Portland",
+      "population": 654741
     },
     "model": "data.city",
     "pk": 24
   },
   {
     "fields": {
-      "name": "Sacramento"
+      "actual_city_name": "Sacramento",
+      "name": "Sacramento",
+      "population": 513625
     },
     "model": "data.city",
     "pk": 25
   },
   {
     "fields": {
-      "name": "San Antonio"
+      "actual_city_name": "San Antonio",
+      "name": "San Antonio",
+      "population": 1547253
     },
     "model": "data.city",
     "pk": 26
   },
   {
     "fields": {
-      "name": "Toronto"
+      "actual_city_name": "Toronto",
+      "name": "Toronto",
+      "population": 2930000
     },
     "model": "data.city",
     "pk": 27
   },
   {
     "fields": {
-      "name": "Utah"
+      "actual_city_name": "Salt Lake City",
+      "name": "Utah",
+      "population": 209593
     },
     "model": "data.city",
     "pk": 28
   },
   {
     "fields": {
-      "name": "Washington"
+      "actual_city_name": "Washington",
+      "name": "Washington",
+      "population": 705749
     },
     "model": "data.city",
     "pk": 29
@@ -245,7 +303,7 @@
   {
     "fields": {
       "city": 6,
-      "nickname": "Cavs"
+      "nickname": "Cavaliers"
     },
     "model": "data.team",
     "pk": 6

@@ -19,7 +19,8 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class CitySerializer(serializers.ModelSerializer):
     class Meta:
         model = City
-        fields = ["id", "name"]  # Include id and name for serialization
+        # Include id and name for serialization
+        fields = ["id", "name", "actual_city_name", "population"]
 
 
 class TeamSerializer(serializers.HyperlinkedModelSerializer):
