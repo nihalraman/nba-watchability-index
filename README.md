@@ -13,6 +13,8 @@ docker compose up -d
 ```
 Browse API at `http://0.0.0.0:8000/data/`.
 
+Log into the API with username set to 'admin', 'nihal', or 'duncan'. Password will be default password set in the .env file.
+
 
 ## Development
 
