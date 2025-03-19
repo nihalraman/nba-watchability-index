@@ -4,13 +4,14 @@ from rest_framework.decorators import api_view
 from rest_framework.exceptions import NotFound
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
+from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 
 from .models import City, Team
 from .serializers import CitySerializer, TeamSerializer, UserSerializer
 
 
 @api_view(["GET"])
-def api_root(request, format=None):
+def api_root(request):
     return Response(
         {
             "users": reverse("user-list", request=request),
@@ -18,34 +19,22 @@ def api_root(request, format=None):
     )
 
 
-class UserList(generics.ListAPIView):
+class UserViewSet(ReadOnlyModelViewSet):
+    """
+    This viewset automatically provides `list` and `retrieve` actions.
+    """
+
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    # restrict to staff users only
     permission_classes = [permissions.IsAdminUser]
 
 
-class UserDetail(generics.RetrieveAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
-    # restrict to staff users only
-    permission_classes = [permissions.IsAdminUser]
-
-
-class CityList(generics.ListAPIView):
-    """Retrieve all cities, or create a new one."""
+class CityViewSet(ModelViewSet):
+    """Retrieve, create, update, or delete cities."""
 
     queryset = City.objects.all()
     serializer_class = CitySerializer
-
-
-class CityDetail(generics.RetrieveAPIView):
-    """Retrieve, update, or delete a specific city."""
-
-    queryset = City.objects.all()
-    serializer_class = CitySerializer
-
-    lookup_field = "city_name"  # The field to match the string against
+    lookup_field = "city_name"  # Use `city_name` as the lookup field
 
     def get_object(self):
         """
@@ -57,41 +46,32 @@ class CityDetail(generics.RetrieveAPIView):
 
         # Perform a case-insensitive lookup, also ignore spaces in city names
         try:
-            city = City.objects.get(name__iexact=city_name.replace(" ", ""))
+            city = City.objects.get(name__iexact=city_name.title())
         except City.DoesNotExist:
             raise NotFound(f"City with name '{city_name}' not found.")
 
         return city
 
 
-class TeamList(generics.ListCreateAPIView):
-    """Retrieve all teams, or create a new one."""
+class TeamViewSet(ModelViewSet):
+    """Retrieve, create, update, or delete a specific team."""
 
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
-
-
-class TeamDetail(generics.RetrieveAPIView):
-    """Retrieve, update, or delete a specific team."""
-
-    queryset = Team.objects.all()
-    serializer_class = TeamSerializer
-
-    lookup_field = "team_nickname"  # The field to match the string against
+    lookup_field = "team_nickname"  # Use `team_nickname` as the lookup field
 
     def get_object(self):
         """
-        Override the default `get_object` method to retrieve a team by its name.
+        Override the default `get_object` method to retrieve a team by its nickname.
         """
-        team_name = self.kwargs.get(
+        team_nickname = self.kwargs.get(
             self.lookup_field
-        )  # Get the team name from URL parameter
+        )  # Get the team nickname from URL parameter
 
-        # Perform a case-insensitive lookup, also ignore spaces in team names
+        # Perform a case-insensitive lookup, also ignore spaces in team nicknames
         try:
-
-            team = Team.objects.get(nickname__iexact=team_name.replace(" ", ""))
+            team = Team.objects.get(nickname__iexact=team_nickname.title())
         except Team.DoesNotExist:
-            raise NotFound(f"Team with name '{team_name}' not found.")
+            raise NotFound(f"Team with nickname '{team_nickname}' not found.")
 
         return team
