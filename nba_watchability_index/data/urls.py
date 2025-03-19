@@ -8,12 +8,13 @@ router = routers.DefaultRouter()
 
 
 urlpatterns = [
-    path("", include(router.urls)),
-    path("users/", views.UserList.as_view()),
-    path("users/<int:pk>/", views.UserDetail.as_view()),
-    path("cities/", views.CityList.as_view()),
-    path("cities/<str:city_name>", views.CityDetail.as_view()),
-    path("teams/", views.TeamList.as_view()),
+    path("", views.api_root),
+    path("users/", views.UserList.as_view(), name="user-list"),
+    path("users/<int:pk>/", views.UserDetail.as_view(), name="user-detail"),
+    path("cities/", views.CityList.as_view(), name="city-list"),
+    path("cities/<str:city_name>/", views.CityDetail.as_view(), name="city-detail"),
+    path("teams/", views.TeamList.as_view(), name="team-list"),
+    path("teams/<str:team_nickname>/", views.TeamDetail.as_view(), name="team-detail"),
 ]
 
 # add auth

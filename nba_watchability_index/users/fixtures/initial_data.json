@@ -8,7 +8,7 @@
       "is_staff": true,
       "is_superuser": true,
       "last_name": "",
-      "password": "pbkdf2_sha256$600000$VeCs0tMV5Aoa54hQ7YXqun$TdDkTP7sl+Hw8PIhzNXQfa4uYHV1ONjHksbgK+O40jk=",
+      "password": "pbkdf2_sha256$600000$ggNWGMRMteXxCzDThE04Uk$P/cCa8iZzZG1Q1ZdIly4VOqb27Xzh2E+Gi28jKSq4Os=",
       "username": "admin"
     },
     "model": "auth.user",
@@ -23,7 +23,7 @@
       "is_staff": true,
       "is_superuser": false,
       "last_name": "Raman",
-      "password": "pbkdf2_sha256$600000$VeCs0tMV5Aoa54hQ7YXqun$TdDkTP7sl+Hw8PIhzNXQfa4uYHV1ONjHksbgK+O40jk=",
+      "password": "pbkdf2_sha256$600000$ggNWGMRMteXxCzDThE04Uk$P/cCa8iZzZG1Q1ZdIly4VOqb27Xzh2E+Gi28jKSq4Os=",
       "username": "nihal"
     },
     "model": "auth.user",
@@ -38,7 +38,7 @@
       "is_staff": true,
       "is_superuser": false,
       "last_name": "Lamont",
-      "password": "pbkdf2_sha256$600000$VeCs0tMV5Aoa54hQ7YXqun$TdDkTP7sl+Hw8PIhzNXQfa4uYHV1ONjHksbgK+O40jk=",
+      "password": "pbkdf2_sha256$600000$ggNWGMRMteXxCzDThE04Uk$P/cCa8iZzZG1Q1ZdIly4VOqb27Xzh2E+Gi28jKSq4Os=",
       "username": "duncan"
     },
     "model": "auth.user",
