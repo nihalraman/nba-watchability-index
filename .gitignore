@@ -8,6 +8,8 @@ nba_watchability_index/data/fixtures/player_data.json
 nba_watchability_index/users/fixtures/initial_data.json
 *.ipynb
 
+*.DS_Store
+
 # C extensions
 *.so
 

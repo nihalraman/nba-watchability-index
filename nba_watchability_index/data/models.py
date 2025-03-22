@@ -24,12 +24,21 @@ class Team(models.Model):
 
 
 class Player(models.Model):
-    firstname = models.CharField(max_length=20)
-    lastname = models.CharField(max_length=20)
+    # set pk as charfield so we can use bbref IDs
+    player_id = models.CharField(max_length=40, primary_key=True)
+    name = models.CharField(max_length=40)
+    position = models.CharField(max_length=10)
+    height_in = models.IntegerField(
+        validators=[MinValueValidator(0), MaxValueValidator(120)]
+    )
+    weight = models.IntegerField(
+        validators=[MinValueValidator(0), MaxValueValidator(500)], null=True
+    )
+    dob = models.DateTimeField(null=True)
     teams = models.ManyToManyField(Team, through="PlayerTeam", related_name="players")
 
     def __str__(self):
-        return f"{self.firstname} {self.lastname}"
+        return f"{self.name}"
 
 
 class PlayerTeam(models.Model):
