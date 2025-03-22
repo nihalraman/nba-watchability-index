@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 
 .env
+nba_watchability_index/data/fixtures/player_data.json
+nba_watchability_index/users/fixtures/initial_data.json
+*.ipynb
 
 # C extensions
 *.so

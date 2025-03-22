@@ -13,10 +13,12 @@ python /code/manage.py migrate
 # generate user account fixtures
 echo "Creating user accounts"
 python /code/manage.py generate_user_fixtures
+python /code/manage.py get_player_fixtures
 
 # Load initial data from all apps' fixtures
 echo "Loading initial data from all apps' fixtures..."
 python /code/manage.py loaddata initial_data
+python /code/manage.py loaddata player_data
 
 # Start the Django development server
 echo "Starting Django development server..."
