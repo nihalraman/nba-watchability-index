@@ -17,7 +17,7 @@ class Command(BaseCommand):
 
         # Construct the absolute path to the CSV file
         wdir = os.path.dirname(os.path.abspath(__file__))
-        player_df = pd.read_csv(os.path.join(wdir, "/resources/all_bbref_players.csv"))
+        player_df = pd.read_csv(os.path.join(wdir, "all_bbref_players.csv"))
         # convert height to inches
         player_df["height_in"] = (
             player_df["Ht"].str.split("-").apply(lambda x: int(x[0]) * 12 + int(x[1]))
@@ -28,6 +28,9 @@ class Command(BaseCommand):
         player_fixtures = []
         for _, row in player_df.iterrows():
             cur_player = {}
+
+            cur_player["model"] = "data.player"
+            cur_player["pk"] = row["Player-additional"]
 
             # use bbref id as pk
             cur_player["fields"] = {
@@ -44,9 +47,6 @@ class Command(BaseCommand):
                 cur_player["fields"]["dob"] = timezone.make_aware(
                     row["Birth Date"]
                 ).isoformat()
-
-            cur_player["player_id"] = row["Player-additional"]
-            cur_player["model"] = "data.player"
 
             player_fixtures.append(cur_player)
 

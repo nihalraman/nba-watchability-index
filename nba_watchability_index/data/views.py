@@ -6,8 +6,13 @@ from rest_framework.response import Response
 from rest_framework.reverse import reverse
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 
-from .models import City, Team
-from .serializers import CitySerializer, TeamSerializer, UserSerializer
+from .models import City, Player, Team
+from .serializers import (
+    CitySerializer,
+    PlayerSerializer,
+    TeamSerializer,
+    UserSerializer,
+)
 
 
 @api_view(["GET"])
@@ -75,3 +80,10 @@ class TeamViewSet(ModelViewSet):
             raise NotFound(f"Team with nickname '{team_nickname}' not found.")
 
         return team
+
+
+class PlayerViewSet(ModelViewSet):
+    """Retrieve, create, update, or delete a specific player."""
+
+    queryset = Player.objects.all()
+    serializer_class = PlayerSerializer
