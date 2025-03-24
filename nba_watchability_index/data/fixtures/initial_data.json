@@ -1,503 +1,1870 @@
 [
   {
     "fields": {
-      "actual_city_name": "Atlanta",
-      "name": "Atlanta",
-      "population": 498044
+      "actual city name": "Vancouver",
+      "name": "Vancouver",
+      "population": 631000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 1
   },
   {
     "fields": {
-      "actual_city_name": "Boston",
-      "name": "Boston",
-      "population": 692600
+      "actual city name": "Milwaukee",
+      "name": "Milwaukee",
+      "population": 595000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 2
   },
   {
     "fields": {
-      "actual_city_name": "Brooklyn",
-      "name": "Brooklyn",
-      "population": 2648771
+      "actual city name": "Denver",
+      "name": "Denver",
+      "population": 715000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 3
   },
   {
     "fields": {
-      "actual_city_name": "Charlotte",
-      "name": "Charlotte",
-      "population": 874579
+      "actual city name": "Los Angeles",
+      "name": "Los Angeles",
+      "population": 3898000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 4
   },
   {
     "fields": {
-      "actual_city_name": "Chicago",
-      "name": "Chicago",
-      "population": 2716000
+      "actual city name": "Seattle",
+      "name": "Seattle",
+      "population": 769000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 5
   },
   {
     "fields": {
-      "actual_city_name": "Cleveland",
-      "name": "Cleveland",
-      "population": 372624
+      "actual city name": "Sacramento",
+      "name": "Sacramento",
+      "population": 525000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 6
   },
   {
     "fields": {
-      "actual_city_name": "Dallas",
-      "name": "Dallas",
-      "population": 1341000
+      "actual city name": "Pittsburgh",
+      "name": "Pittsburgh",
+      "population": 300000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 7
   },
   {
     "fields": {
-      "actual_city_name": "Denver",
-      "name": "Denver",
-      "population": 735538
+      "actual city name": "Buffalo",
+      "name": "Buffalo",
+      "population": 277000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 8
   },
   {
     "fields": {
-      "actual_city_name": "Detroit",
-      "name": "Detroit",
-      "population": 670031
+      "actual city name": "Orlando",
+      "name": "Orlando",
+      "population": 307000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 9
   },
   {
     "fields": {
-      "actual_city_name": "San Francisco",
-      "name": "Golden State",
-      "population": 870887
+      "actual city name": "Atlanta",
+      "name": "Atlanta",
+      "population": 522000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 10
   },
   {
     "fields": {
-      "actual_city_name": "Houston",
-      "name": "Houston",
-      "population": 2328000
+      "actual city name": "Portland",
+      "name": "Portland",
+      "population": 652000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 11
   },
   {
     "fields": {
-      "actual_city_name": "Indianapolis",
-      "name": "Indiana",
-      "population": 879293
+      "actual city name": "Boston",
+      "name": "Boston",
+      "population": 692000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 12
   },
   {
     "fields": {
-      "actual_city_name": "Los Angeles",
-      "name": "Los Angeles",
-      "population": 3980400
+      "actual city name": "Cincinnati",
+      "name": "Cincinnati",
+      "population": 303000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 13
   },
   {
     "fields": {
-      "actual_city_name": "Memphis",
-      "name": "Memphis",
-      "population": 650618
+      "actual city name": "Syracuse",
+      "name": "Syracuse",
+      "population": 142000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 14
   },
   {
     "fields": {
-      "actual_city_name": "Miami",
-      "name": "Miami",
-      "population": 470914
+      "actual city name": "San Francisco",
+      "name": "Golden State",
+      "population": 815000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 15
   },
   {
     "fields": {
-      "actual_city_name": "Milwaukee",
-      "name": "Milwaukee",
-      "population": 590157
+      "actual city name": "Dallas",
+      "name": "Dallas",
+      "population": 1343000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 16
   },
   {
     "fields": {
-      "actual_city_name": "Minneapolis",
-      "name": "Minnesota",
-      "population": 425115
+      "actual city name": "Houston",
+      "name": "Houston",
+      "population": 2304000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 17
   },
   {
     "fields": {
-      "actual_city_name": "New Orleans",
-      "name": "New Orleans",
-      "population": 390144
+      "actual city name": "Philadelphia",
+      "name": "Philadelphia",
+      "population": 1610000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 18
   },
   {
     "fields": {
-      "actual_city_name": "New York",
-      "name": "New York",
-      "population": 8419600
+      "actual city name": "Indianapolis",
+      "name": "Indiana",
+      "population": 887000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 19
   },
   {
     "fields": {
-      "actual_city_name": "Oklahoma City",
-      "name": "Oklahoma City",
-      "population": 655057
+      "actual city name": "St. Louis\u00a0",
+      "name": "St. Louis\u00a0",
+      "population": 293000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 20
   },
   {
     "fields": {
-      "actual_city_name": "Orlando",
-      "name": "Orlando",
-      "population": 287442
+      "actual city name": "Baltimore",
+      "name": "Baltimore",
+      "population": 576000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 21
   },
   {
     "fields": {
-      "actual_city_name": "Philadelphia",
-      "name": "Philadelphia",
-      "population": 1584200
+      "actual city name": "Detroit",
+      "name": "Detroit",
+      "population": 632000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 22
   },
   {
     "fields": {
-      "actual_city_name": "Phoenix",
-      "name": "Phoenix",
-      "population": 1680992
+      "actual city name": "Oklahoma City",
+      "name": "Oklahoma City",
+      "population": 655000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 23
   },
   {
     "fields": {
-      "actual_city_name": "Portland",
-      "name": "Portland",
-      "population": 654741
+      "actual city name": "Phoenix",
+      "name": "Phoenix",
+      "population": 1608000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 24
   },
   {
     "fields": {
-      "actual_city_name": "Sacramento",
-      "name": "Sacramento",
-      "population": 513625
+      "actual city name": "Brooklyn",
+      "name": "Brooklyn",
+      "population": 2736000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 25
   },
   {
     "fields": {
-      "actual_city_name": "San Antonio",
-      "name": "San Antonio",
-      "population": 1547253
+      "actual city name": "St. Louis",
+      "name": "St. Louis",
+      "population": 293000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 26
   },
   {
     "fields": {
-      "actual_city_name": "Toronto",
-      "name": "Toronto",
-      "population": 2930000
+      "actual city name": "San Diego",
+      "name": "San Diego",
+      "population": 1425000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 27
   },
   {
     "fields": {
-      "actual_city_name": "Salt Lake City",
-      "name": "Utah",
-      "population": 209593
+      "actual city name": "Washington",
+      "name": "Washington",
+      "population": 705000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 28
   },
   {
     "fields": {
-      "actual_city_name": "Washington",
-      "name": "Washington",
-      "population": 705749
+      "actual city name": "New York",
+      "name": "New York",
+      "population": 8336000
     },
-    "model": "data.city",
+    "model": "data.franchise",
     "pk": 29
+  },
+  {
+    "fields": {
+      "actual city name": "Toronto",
+      "name": "Toronto",
+      "population": 2732000
+    },
+    "model": "data.franchise",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "actual city name": "Miami",
+      "name": "Miami",
+      "population": 439000
+    },
+    "model": "data.franchise",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "actual city name": "New Orleans",
+      "name": "New Orleans",
+      "population": 383000
+    },
+    "model": "data.franchise",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "actual city name": "Memphis",
+      "name": "Memphis",
+      "population": 633000
+    },
+    "model": "data.franchise",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "actual city name": "Charlotte",
+      "name": "Charlotte",
+      "population": 912000
+    },
+    "model": "data.franchise",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "actual city name": "Chicago",
+      "name": "Chicago",
+      "population": 2746000
+    },
+    "model": "data.franchise",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "name": "Kansas City-Omaha"
+    },
+    "model": "data.franchise",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "actual city name": "East Rutherford",
+      "name": "New Jersey",
+      "population": 10421
+    },
+    "model": "data.franchise",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "actual city name": "Minneapolis",
+      "name": "Minnesota",
+      "population": 429000
+    },
+    "model": "data.franchise",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "actual city name": "Cleveland",
+      "name": "Cleveland",
+      "population": 372000
+    },
+    "model": "data.franchise",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "actual city name": "Salt Lake City",
+      "name": "Utah",
+      "population": 199000
+    },
+    "model": "data.franchise",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "actual city name": "Louisville",
+      "name": "Kentucky",
+      "population": 622981
+    },
+    "model": "data.franchise",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "actual city name": "San Antonio",
+      "name": "San Antonio",
+      "population": 1434000
+    },
+    "model": "data.franchise",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "actual city name": "Washington, DC",
+      "name": "Washington",
+      "population": 705000
+    },
+    "model": "data.franchise",
+    "pk": 43
+  },
+  {
+    "fields": {
+      "actual city name": "San Francisco",
+      "name": "San Francisco",
+      "population": 815000
+    },
+    "model": "data.franchise",
+    "pk": 44
+  },
+  {
+    "fields": {
+      "actual city name": "Anaheim",
+      "name": "Anaheim",
+      "population": 354000
+    },
+    "model": "data.franchise",
+    "pk": 45
+  },
+  {
+    "fields": {
+      "actual city name": "Kansas City",
+      "name": "Kansas City",
+      "population": 508000
+    },
+    "model": "data.franchise",
+    "pk": 46
+  },
+  {
+    "fields": {
+      "actual city name": "Miami",
+      "name": "Florida",
+      "population": 439000
+    },
+    "model": "data.franchise",
+    "pk": 47
+  },
+  {
+    "fields": {
+      "name": "New Orleans/Oklahoma City"
+    },
+    "model": "data.franchise",
+    "pk": 48
+  },
+  {
+    "fields": {
+      "actual city name": "Oakland",
+      "name": "Oakland",
+      "population": 440000
+    },
+    "model": "data.franchise",
+    "pk": 49
+  },
+  {
+    "fields": {
+      "actual city name": "Minneapolis",
+      "name": "Minnesota",
+      "population": "Minneapolis"
+    },
+    "model": "data.franchise",
+    "pk": 50
+  },
+  {
+    "fields": {
+      "actual city name": "Fort Wayne",
+      "name": "Fort Wayne",
+      "population": 267000
+    },
+    "model": "data.franchise",
+    "pk": 51
+  },
+  {
+    "fields": {
+      "actual city name": "Indianapolis",
+      "name": "Indianapolis",
+      "population": 887000
+    },
+    "model": "data.franchise",
+    "pk": 52
+  },
+  {
+    "fields": {
+      "actual city name": "Norfolk, VA",
+      "name": "Virginia",
+      "population": 247000
+    },
+    "model": "data.franchise",
+    "pk": 53
+  },
+  {
+    "fields": {
+      "actual city name": "Minneapolis",
+      "name": "Minneapolis",
+      "population": 429000
+    },
+    "model": "data.franchise",
+    "pk": 54
+  },
+  {
+    "fields": {
+      "actual city name": "Moline",
+      "name": "Tri-Cities",
+      "population": 43000
+    },
+    "model": "data.franchise",
+    "pk": 55
+  },
+  {
+    "fields": {
+      "actual city name": "Fort Worth",
+      "name": "Texas",
+      "population": 927000
+    },
+    "model": "data.franchise",
+    "pk": 56
+  },
+  {
+    "fields": {
+      "actual city name": "Providence",
+      "name": "Providence",
+      "population": 179000
+    },
+    "model": "data.franchise",
+    "pk": 57
+  },
+  {
+    "fields": {
+      "actual city name": "Anderson",
+      "name": "Anderson",
+      "population": 56000
+    },
+    "model": "data.franchise",
+    "pk": 58
+  },
+  {
+    "fields": {
+      "actual city name": "Waterloo",
+      "name": "Waterloo",
+      "population": 68000
+    },
+    "model": "data.franchise",
+    "pk": 59
+  },
+  {
+    "fields": {
+      "actual city name": "Greensboro",
+      "name": "Carolina",
+      "population": 299000
+    },
+    "model": "data.franchise",
+    "pk": 60
+  },
+  {
+    "fields": {
+      "actual city name": "Sheboygan",
+      "name": "Sheboygan",
+      "population": 49000
+    },
+    "model": "data.franchise",
+    "pk": 61
+  },
+  {
+    "fields": {
+      "actual city name": "Rochester",
+      "name": "Rochester",
+      "population": 211000
+    },
+    "model": "data.franchise",
+    "pk": 62
+  },
+  {
+    "fields": {
+      "name": "Memphis Grizzlies"
+    },
+    "model": "data.franchise",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Milwaukee Bucks"
+    },
+    "model": "data.franchise",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Denver Nuggets"
+    },
+    "model": "data.franchise",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "Los Angeles Lakers"
+    },
+    "model": "data.franchise",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Oklahoma City Thunder"
+    },
+    "model": "data.franchise",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Sacramento Kings"
+    },
+    "model": "data.franchise",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Pittsburgh Ironmen"
+    },
+    "model": "data.franchise",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Los Angeles Clippers"
+    },
+    "model": "data.franchise",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Orlando Magic"
+    },
+    "model": "data.franchise",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Atlanta Hawks"
+    },
+    "model": "data.franchise",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Portland Trail Blazers"
+    },
+    "model": "data.franchise",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "name": "Boston Celtics"
+    },
+    "model": "data.franchise",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "name": "Philadelphia 76ers"
+    },
+    "model": "data.franchise",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "name": "Golden State Warriors"
+    },
+    "model": "data.franchise",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "name": "Dallas Mavericks"
+    },
+    "model": "data.franchise",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "name": "Houston Rockets"
+    },
+    "model": "data.franchise",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "name": "Indiana Pacers"
+    },
+    "model": "data.franchise",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "name": "St. Louis Bombers"
+    },
+    "model": "data.franchise",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "name": "Baltimore Bullets"
+    },
+    "model": "data.franchise",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "name": "Detroit Pistons"
+    },
+    "model": "data.franchise",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "name": "Phoenix Suns"
+    },
+    "model": "data.franchise",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "name": "Brooklyn Nets"
+    },
+    "model": "data.franchise",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "name": "Spirits of St. Louis"
+    },
+    "model": "data.franchise",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "name": "San Diego Sails"
+    },
+    "model": "data.franchise",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "name": "Washington Bullets"
+    },
+    "model": "data.franchise",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "name": "New York Knicks"
+    },
+    "model": "data.franchise",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "name": "Toronto Raptors"
+    },
+    "model": "data.franchise",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "name": "Miami Heat"
+    },
+    "model": "data.franchise",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "name": "New Orleans Pelicans"
+    },
+    "model": "data.franchise",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "name": "Charlotte Hornets"
+    },
+    "model": "data.franchise",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "name": "Chicago Bulls"
+    },
+    "model": "data.franchise",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "name": "Utah Jazz"
+    },
+    "model": "data.franchise",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "name": "Minnesota Timberwolves"
+    },
+    "model": "data.franchise",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "name": "Cleveland Cavaliers"
+    },
+    "model": "data.franchise",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "name": "Kentucky Colonels"
+    },
+    "model": "data.franchise",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "name": "San Antonio Spurs"
+    },
+    "model": "data.franchise",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "name": "Washington Wizards"
+    },
+    "model": "data.franchise",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "name": "Utah Stars"
+    },
+    "model": "data.franchise",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "name": "The Floridians"
+    },
+    "model": "data.franchise",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "name": "Virginia Squires"
+    },
+    "model": "data.franchise",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "name": "Pittsburgh Condors"
+    },
+    "model": "data.franchise",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "name": "Memphis Sounds"
+    },
+    "model": "data.franchise",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "name": "Detroit Falcons"
+    },
+    "model": "data.franchise",
+    "pk": 43
+  },
+  {
+    "fields": {
+      "name": "Chicago Stags"
+    },
+    "model": "data.franchise",
+    "pk": 44
+  },
+  {
+    "fields": {
+      "name": "Indianapolis Olympians"
+    },
+    "model": "data.franchise",
+    "pk": 45
+  },
+  {
+    "fields": {
+      "name": "Washington Capitols"
+    },
+    "model": "data.franchise",
+    "pk": 46
+  },
+  {
+    "fields": {
+      "name": "Denver Nuggets-Defunct"
+    },
+    "model": "data.franchise",
+    "pk": 47
+  },
+  {
+    "fields": {
+      "name": "Cleveland Rebels"
+    },
+    "model": "data.franchise",
+    "pk": 48
+  },
+  {
+    "fields": {
+      "name": "Providence Steamrollers"
+    },
+    "model": "data.franchise",
+    "pk": 49
+  },
+  {
+    "fields": {
+      "name": "Toronto Huskies"
+    },
+    "model": "data.franchise",
+    "pk": 50
+  },
+  {
+    "fields": {
+      "name": "Indianapolis Jets"
+    },
+    "model": "data.franchise",
+    "pk": 51
+  },
+  {
+    "fields": {
+      "name": "Anderson Packers"
+    },
+    "model": "data.franchise",
+    "pk": 52
+  },
+  {
+    "fields": {
+      "name": "Waterloo Hawks"
+    },
+    "model": "data.franchise",
+    "pk": 53
+  },
+  {
+    "fields": {
+      "name": "Sheboygan Red Skins"
+    },
+    "model": "data.franchise",
+    "pk": 54
   },
   {
     "fields": {
       "city": 1,
-      "nickname": "Hawks"
+      "franchise": 1,
+      "name": "Grizzlies"
     },
     "model": "data.team",
-    "pk": 1
+    "pk": "VAN"
   },
   {
     "fields": {
       "city": 2,
-      "nickname": "Celtics"
+      "franchise": 2,
+      "name": "Bucks"
     },
     "model": "data.team",
-    "pk": 2
+    "pk": "MIL"
   },
   {
     "fields": {
       "city": 3,
-      "nickname": "Nets"
+      "franchise": 3,
+      "name": "Nuggets"
     },
     "model": "data.team",
-    "pk": 3
+    "pk": "DEN"
   },
   {
     "fields": {
       "city": 4,
-      "nickname": "Hornets"
+      "franchise": 4,
+      "name": "Lakers"
     },
     "model": "data.team",
-    "pk": 4
+    "pk": "LAL"
   },
   {
     "fields": {
       "city": 5,
-      "nickname": "Bulls"
+      "franchise": 5,
+      "name": "SuperSonics"
     },
     "model": "data.team",
-    "pk": 5
+    "pk": "SEA"
   },
   {
     "fields": {
       "city": 6,
-      "nickname": "Cavaliers"
+      "franchise": 6,
+      "name": "Kings"
     },
     "model": "data.team",
-    "pk": 6
+    "pk": "SAC"
   },
   {
     "fields": {
       "city": 7,
-      "nickname": "Mavericks"
+      "franchise": 7,
+      "name": "Ironmen"
     },
     "model": "data.team",
-    "pk": 7
+    "pk": "PIT"
   },
   {
     "fields": {
       "city": 8,
-      "nickname": "Nuggets"
+      "franchise": 8,
+      "name": "Braves"
     },
     "model": "data.team",
-    "pk": 8
+    "pk": "BUF"
   },
   {
     "fields": {
       "city": 9,
-      "nickname": "Pistons"
+      "franchise": 9,
+      "name": "Magic"
     },
     "model": "data.team",
-    "pk": 9
+    "pk": "ORL"
   },
   {
     "fields": {
       "city": 10,
-      "nickname": "Warriors"
+      "franchise": 10,
+      "name": "Hawks"
     },
     "model": "data.team",
-    "pk": 10
+    "pk": "ATL"
   },
   {
     "fields": {
       "city": 11,
-      "nickname": "Rockets"
+      "franchise": 11,
+      "name": "Trail Blazers"
     },
     "model": "data.team",
-    "pk": 11
+    "pk": "POR"
   },
   {
     "fields": {
       "city": 12,
-      "nickname": "Pacers"
+      "franchise": 12,
+      "name": "Celtics"
     },
     "model": "data.team",
-    "pk": 12
+    "pk": "BOS"
   },
   {
     "fields": {
       "city": 13,
-      "nickname": "Lakers"
+      "franchise": 6,
+      "name": "Royals"
     },
     "model": "data.team",
-    "pk": 13
-  },
-  {
-    "fields": {
-      "city": 13,
-      "nickname": "Clippers"
-    },
-    "model": "data.team",
-    "pk": 14
+    "pk": "CIN"
   },
   {
     "fields": {
       "city": 14,
-      "nickname": "Grizzlies"
+      "franchise": 13,
+      "name": "Nationals"
     },
     "model": "data.team",
-    "pk": 15
+    "pk": "SYR"
   },
   {
     "fields": {
       "city": 15,
-      "nickname": "Heat"
+      "franchise": 14,
+      "name": "Warriors"
     },
     "model": "data.team",
-    "pk": 16
+    "pk": "GSW"
   },
   {
     "fields": {
       "city": 16,
-      "nickname": "Bucks"
+      "franchise": 15,
+      "name": "Mavericks"
     },
     "model": "data.team",
-    "pk": 17
+    "pk": "DAL"
   },
   {
     "fields": {
       "city": 17,
-      "nickname": "Timberwolves"
+      "franchise": 16,
+      "name": "Rockets"
     },
     "model": "data.team",
-    "pk": 18
+    "pk": "HOU"
   },
   {
     "fields": {
       "city": 18,
-      "nickname": "Pelicans"
+      "franchise": 13,
+      "name": "76ers"
     },
     "model": "data.team",
-    "pk": 19
+    "pk": "PHI"
   },
   {
     "fields": {
       "city": 19,
-      "nickname": "Knicks"
+      "franchise": 17,
+      "name": "Pacers"
     },
     "model": "data.team",
-    "pk": 20
+    "pk": "IND"
   },
   {
     "fields": {
       "city": 20,
-      "nickname": "Thunder"
+      "franchise": 18,
+      "name": "Bombers"
     },
     "model": "data.team",
-    "pk": 21
+    "pk": "STB"
   },
   {
     "fields": {
       "city": 21,
-      "nickname": "Magic"
+      "franchise": 19,
+      "name": "Bullets"
     },
     "model": "data.team",
-    "pk": 22
+    "pk": "BLB"
   },
   {
     "fields": {
       "city": 22,
-      "nickname": "76ers"
+      "franchise": 20,
+      "name": "Pistons"
     },
     "model": "data.team",
-    "pk": 23
+    "pk": "DET"
   },
   {
     "fields": {
       "city": 23,
-      "nickname": "Suns"
+      "franchise": 5,
+      "name": "Thunder"
     },
     "model": "data.team",
-    "pk": 24
+    "pk": "OKC"
   },
   {
     "fields": {
       "city": 24,
-      "nickname": "Blazers"
+      "franchise": 21,
+      "name": "Suns"
     },
     "model": "data.team",
-    "pk": 25
+    "pk": "PHO"
   },
   {
     "fields": {
       "city": 25,
-      "nickname": "Kings"
+      "franchise": 22,
+      "name": "Nets"
     },
     "model": "data.team",
-    "pk": 26
+    "pk": "BRK"
   },
   {
     "fields": {
       "city": 26,
-      "nickname": "Spurs"
+      "franchise": 23,
+      "name": "Spirits of"
     },
     "model": "data.team",
-    "pk": 27
+    "pk": "SSL"
   },
   {
     "fields": {
       "city": 27,
-      "nickname": "Raptors"
+      "franchise": 16,
+      "name": "Rockets"
     },
     "model": "data.team",
-    "pk": 28
+    "pk": "SDR"
+  },
+  {
+    "fields": {
+      "city": 27,
+      "franchise": 24,
+      "name": "Conquistadors"
+    },
+    "model": "data.team",
+    "pk": "SDA"
   },
   {
     "fields": {
       "city": 28,
-      "nickname": "Jazz"
+      "franchise": 25,
+      "name": "Bullets"
     },
     "model": "data.team",
-    "pk": 29
+    "pk": "WSB"
   },
   {
     "fields": {
       "city": 29,
-      "nickname": "Wizards"
+      "franchise": 26,
+      "name": "Knicks"
     },
     "model": "data.team",
-    "pk": 30
+    "pk": "NYK"
+  },
+  {
+    "fields": {
+      "city": 30,
+      "franchise": 27,
+      "name": "Raptors"
+    },
+    "model": "data.team",
+    "pk": "TOR"
+  },
+  {
+    "fields": {
+      "city": 31,
+      "franchise": 28,
+      "name": "Heat"
+    },
+    "model": "data.team",
+    "pk": "MIA"
+  },
+  {
+    "fields": {
+      "city": 4,
+      "franchise": 8,
+      "name": "Clippers"
+    },
+    "model": "data.team",
+    "pk": "LAC"
+  },
+  {
+    "fields": {
+      "city": 32,
+      "franchise": 29,
+      "name": "Pelicans"
+    },
+    "model": "data.team",
+    "pk": "NOP"
+  },
+  {
+    "fields": {
+      "city": 33,
+      "franchise": 1,
+      "name": "Grizzlies"
+    },
+    "model": "data.team",
+    "pk": "MEM"
+  },
+  {
+    "fields": {
+      "city": 34,
+      "franchise": 30,
+      "name": "Hornets-Previous"
+    },
+    "model": "data.team",
+    "pk": "CHH"
+  },
+  {
+    "fields": {
+      "city": 35,
+      "franchise": 31,
+      "name": "Bulls"
+    },
+    "model": "data.team",
+    "pk": "CHI"
+  },
+  {
+    "fields": {
+      "city": 32,
+      "franchise": 32,
+      "name": "Jazz"
+    },
+    "model": "data.team",
+    "pk": "NOJ"
+  },
+  {
+    "fields": {
+      "city": 36,
+      "franchise": 6,
+      "name": "Kings"
+    },
+    "model": "data.team",
+    "pk": "KCO"
+  },
+  {
+    "fields": {
+      "city": 37,
+      "franchise": 22,
+      "name": "Nets"
+    },
+    "model": "data.team",
+    "pk": "NJN"
+  },
+  {
+    "fields": {
+      "city": 34,
+      "franchise": 30,
+      "name": "Bobcats"
+    },
+    "model": "data.team",
+    "pk": "CHA"
+  },
+  {
+    "fields": {
+      "city": 38,
+      "franchise": 33,
+      "name": "Timberwolves"
+    },
+    "model": "data.team",
+    "pk": "MIN"
+  },
+  {
+    "fields": {
+      "city": 39,
+      "franchise": 34,
+      "name": "Cavaliers"
+    },
+    "model": "data.team",
+    "pk": "CLE"
+  },
+  {
+    "fields": {
+      "city": 40,
+      "franchise": 32,
+      "name": "Jazz"
+    },
+    "model": "data.team",
+    "pk": "UTA"
+  },
+  {
+    "fields": {
+      "city": 41,
+      "franchise": 35,
+      "name": "Colonels"
+    },
+    "model": "data.team",
+    "pk": "KEN"
+  },
+  {
+    "fields": {
+      "city": 42,
+      "franchise": 36,
+      "name": "Spurs"
+    },
+    "model": "data.team",
+    "pk": "SAS"
+  },
+  {
+    "fields": {
+      "city": 19,
+      "franchise": 17,
+      "name": "Pacers-ABA"
+    },
+    "model": "data.team",
+    "pk": "INA"
+  },
+  {
+    "fields": {
+      "city": 32,
+      "franchise": 29,
+      "name": "Hornets"
+    },
+    "model": "data.team",
+    "pk": "NOH"
+  },
+  {
+    "fields": {
+      "city": 28,
+      "franchise": 37,
+      "name": "Wizards"
+    },
+    "model": "data.team",
+    "pk": "WAS"
+  },
+  {
+    "fields": {
+      "city": 44,
+      "franchise": 14,
+      "name": "Warriors"
+    },
+    "model": "data.team",
+    "pk": "SFW"
+  },
+  {
+    "fields": {
+      "city": 45,
+      "franchise": 38,
+      "name": "Amigos"
+    },
+    "model": "data.team",
+    "pk": "ANA"
+  },
+  {
+    "fields": {
+      "city": 46,
+      "franchise": 6,
+      "name": "Kings"
+    },
+    "model": "data.team",
+    "pk": "KCK"
+  },
+  {
+    "fields": {
+      "city": 47,
+      "franchise": 39,
+      "name": "Floridians"
+    },
+    "model": "data.team",
+    "pk": "FLO"
+  },
+  {
+    "fields": {
+      "city": 48,
+      "franchise": 29,
+      "name": "Hornets"
+    },
+    "model": "data.team",
+    "pk": "NOK"
+  },
+  {
+    "fields": {
+      "city": 37,
+      "franchise": 22,
+      "name": "Americans"
+    },
+    "model": "data.team",
+    "pk": "NJA"
+  },
+  {
+    "fields": {
+      "city": 31,
+      "franchise": 39,
+      "name": "Floridians"
+    },
+    "model": "data.team",
+    "pk": "MMF"
+  },
+  {
+    "fields": {
+      "city": 4,
+      "franchise": 38,
+      "name": "Stars"
+    },
+    "model": "data.team",
+    "pk": "LAS"
+  },
+  {
+    "fields": {
+      "city": 49,
+      "franchise": 40,
+      "name": "Oaks"
+    },
+    "model": "data.team",
+    "pk": "OAK"
+  },
+  {
+    "fields": {
+      "city": 29,
+      "franchise": 22,
+      "name": "Nets-ABA"
+    },
+    "model": "data.team",
+    "pk": "NYA"
+  },
+  {
+    "fields": {
+      "city": 38,
+      "franchise": 41,
+      "name": "Pipers"
+    },
+    "model": "data.team",
+    "pk": "MNP"
+  },
+  {
+    "fields": {
+      "city": 3,
+      "franchise": 3,
+      "name": "Rockets"
+    },
+    "model": "data.team",
+    "pk": "DNR"
+  },
+  {
+    "fields": {
+      "city": 27,
+      "franchise": 8,
+      "name": "Clippers"
+    },
+    "model": "data.team",
+    "pk": "SDC"
+  },
+  {
+    "fields": {
+      "city": 18,
+      "franchise": 14,
+      "name": "Warriors"
+    },
+    "model": "data.team",
+    "pk": "PHW"
+  },
+  {
+    "fields": {
+      "city": 29,
+      "franchise": 22,
+      "name": "Nets"
+    },
+    "model": "data.team",
+    "pk": "NYN"
+  },
+  {
+    "fields": {
+      "city": 33,
+      "franchise": 42,
+      "name": "Tams"
+    },
+    "model": "data.team",
+    "pk": "MMT"
+  },
+  {
+    "fields": {
+      "city": 26,
+      "franchise": 10,
+      "name": "Hawks"
+    },
+    "model": "data.team",
+    "pk": "STL"
+  },
+  {
+    "fields": {
+      "city": 51,
+      "franchise": 20,
+      "name": "Pistons"
+    },
+    "model": "data.team",
+    "pk": "FTW"
+  },
+  {
+    "fields": {
+      "city": 22,
+      "franchise": 43,
+      "name": "Falcons"
+    },
+    "model": "data.team",
+    "pk": "DTF"
+  },
+  {
+    "fields": {
+      "city": 21,
+      "franchise": 37,
+      "name": "Bullets"
+    },
+    "model": "data.team",
+    "pk": "BAL"
+  },
+  {
+    "fields": {
+      "city": 42,
+      "franchise": 36,
+      "name": "Spurs-ABA"
+    },
+    "model": "data.team",
+    "pk": "SAA"
+  },
+  {
+    "fields": {
+      "city": 34,
+      "franchise": 30,
+      "name": "Hornets"
+    },
+    "model": "data.team",
+    "pk": "CHO"
+  },
+  {
+    "fields": {
+      "city": 35,
+      "franchise": 44,
+      "name": "Stags"
+    },
+    "model": "data.team",
+    "pk": "CHS"
+  },
+  {
+    "fields": {
+      "city": 7,
+      "franchise": 41,
+      "name": "Condors"
+    },
+    "model": "data.team",
+    "pk": "PTC"
+  },
+  {
+    "fields": {
+      "city": 52,
+      "franchise": 45,
+      "name": "Olympians"
+    },
+    "model": "data.team",
+    "pk": "INO"
+  },
+  {
+    "fields": {
+      "city": 53,
+      "franchise": 40,
+      "name": "Squires"
+    },
+    "model": "data.team",
+    "pk": "VIR"
+  },
+  {
+    "fields": {
+      "city": 28,
+      "franchise": 46,
+      "name": "Capitols"
+    },
+    "model": "data.team",
+    "pk": "WSC"
+  },
+  {
+    "fields": {
+      "city": 28,
+      "franchise": 40,
+      "name": "Capitols-ABA"
+    },
+    "model": "data.team",
+    "pk": "WSA"
+  },
+  {
+    "fields": {
+      "city": 3,
+      "franchise": 47,
+      "name": "Nuggets-Defunct"
+    },
+    "model": "data.team",
+    "pk": "DNN"
+  },
+  {
+    "fields": {
+      "city": 39,
+      "franchise": 48,
+      "name": "Rebels"
+    },
+    "model": "data.team",
+    "pk": "CLR"
+  },
+  {
+    "fields": {
+      "city": 54,
+      "franchise": 4,
+      "name": "Lakers"
+    },
+    "model": "data.team",
+    "pk": "MNL"
+  },
+  {
+    "fields": {
+      "city": 16,
+      "franchise": 36,
+      "name": "Chaparrals"
+    },
+    "model": "data.team",
+    "pk": "DLC"
+  },
+  {
+    "fields": {
+      "city": 55,
+      "franchise": 10,
+      "name": "Blackhawks"
+    },
+    "model": "data.team",
+    "pk": "TRI"
+  },
+  {
+    "fields": {
+      "city": 56,
+      "franchise": 36,
+      "name": "Chaparrals"
+    },
+    "model": "data.team",
+    "pk": "TEX"
+  },
+  {
+    "fields": {
+      "city": 40,
+      "franchise": 38,
+      "name": "Stars"
+    },
+    "model": "data.team",
+    "pk": "UTS"
+  },
+  {
+    "fields": {
+      "city": 17,
+      "franchise": 23,
+      "name": "Mavericks"
+    },
+    "model": "data.team",
+    "pk": "HSM"
+  },
+  {
+    "fields": {
+      "city": 3,
+      "franchise": 3,
+      "name": "Nuggets-ABA"
+    },
+    "model": "data.team",
+    "pk": "DNA"
+  },
+  {
+    "fields": {
+      "city": 2,
+      "franchise": 10,
+      "name": "Hawks"
+    },
+    "model": "data.team",
+    "pk": "MLH"
+  },
+  {
+    "fields": {
+      "city": 57,
+      "franchise": 49,
+      "name": "Steamrollers"
+    },
+    "model": "data.team",
+    "pk": "PRO"
+  },
+  {
+    "fields": {
+      "city": 35,
+      "franchise": 37,
+      "name": "Zephyrs"
+    },
+    "model": "data.team",
+    "pk": "CHZ"
+  },
+  {
+    "fields": {
+      "city": 35,
+      "franchise": 37,
+      "name": "Packers"
+    },
+    "model": "data.team",
+    "pk": "CHP"
+  },
+  {
+    "fields": {
+      "city": 7,
+      "franchise": 41,
+      "name": "Pipers"
+    },
+    "model": "data.team",
+    "pk": "PTP"
+  },
+  {
+    "fields": {
+      "city": 30,
+      "franchise": 50,
+      "name": "Huskies"
+    },
+    "model": "data.team",
+    "pk": "TRH"
+  },
+  {
+    "fields": {
+      "city": 52,
+      "franchise": 51,
+      "name": "Jets"
+    },
+    "model": "data.team",
+    "pk": "INJ"
+  },
+  {
+    "fields": {
+      "city": 58,
+      "franchise": 52,
+      "name": "Packers"
+    },
+    "model": "data.team",
+    "pk": "AND"
+  },
+  {
+    "fields": {
+      "city": 59,
+      "franchise": 53,
+      "name": "Hawks"
+    },
+    "model": "data.team",
+    "pk": "WAT"
+  },
+  {
+    "fields": {
+      "city": 32,
+      "franchise": 42,
+      "name": "Buccaneers"
+    },
+    "model": "data.team",
+    "pk": "NOB"
+  },
+  {
+    "fields": {
+      "city": 60,
+      "franchise": 23,
+      "name": "Cougars"
+    },
+    "model": "data.team",
+    "pk": "CAR"
+  },
+  {
+    "fields": {
+      "city": 61,
+      "franchise": 54,
+      "name": "Red Skins"
+    },
+    "model": "data.team",
+    "pk": "SHE"
+  },
+  {
+    "fields": {
+      "city": 62,
+      "franchise": 6,
+      "name": "Royals"
+    },
+    "model": "data.team",
+    "pk": "ROC"
+  },
+  {
+    "fields": {
+      "city": 33,
+      "franchise": 42,
+      "name": "Sounds"
+    },
+    "model": "data.team",
+    "pk": "MMS"
+  },
+  {
+    "fields": {
+      "city": 33,
+      "franchise": 42,
+      "name": "Pros"
+    },
+    "model": "data.team",
+    "pk": "MMP"
+  },
+  {
+    "fields": {
+      "city": 28,
+      "franchise": 46,
+      "name": "Capitals"
+    },
+    "model": "data.team",
+    "pk": "CAP"
+  },
+  {
+    "fields": {
+      "city": 38,
+      "franchise": 39,
+      "name": "Muskies"
+    },
+    "model": "data.team",
+    "pk": "MNM"
+  },
+  {
+    "fields": {
+      "city": 27,
+      "franchise": 24,
+      "name": "Sails"
+    },
+    "model": "data.team",
+    "pk": "SDS"
   }
 ]

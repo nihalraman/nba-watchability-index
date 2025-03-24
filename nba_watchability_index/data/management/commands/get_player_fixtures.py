@@ -29,9 +29,6 @@ class Command(BaseCommand):
         for _, row in player_df.iterrows():
             cur_player = {}
 
-            cur_player["model"] = "data.player"
-            cur_player["pk"] = row["Player-additional"]
-
             # use bbref id as pk
             cur_player["fields"] = {
                 "name": row["Player"],
@@ -47,6 +44,10 @@ class Command(BaseCommand):
                 cur_player["fields"]["dob"] = timezone.make_aware(
                     row["Birth Date"]
                 ).isoformat()
+
+            # primary key is bbref player id
+            cur_player["pk"] = row["Player-additional"]
+            cur_player["model"] = "data.player"
 
             player_fixtures.append(cur_player)
 
