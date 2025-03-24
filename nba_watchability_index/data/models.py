@@ -32,7 +32,7 @@ class Team(models.Model):
     active_team = models.BooleanField()
 
     def __str__(self):
-        return f"{self.city} {self.nickname}"
+        return f"{self.city} {self.name}"
 
 
 class Player(models.Model):
@@ -58,9 +58,9 @@ class PlayerTeam(models.Model):
 
     player = models.ForeignKey(Player, on_delete=models.CASCADE)
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
-    start_date = models.DateField()
+    first_game = models.DateField()
     # Optional, if the player leaves the team
-    end_date = models.DateField(null=True, blank=True)
+    last_game = models.DateField(null=True)
 
     class Meta:
         # A player can only be in one team at a time for a given period

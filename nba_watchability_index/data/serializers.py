@@ -38,4 +38,12 @@ class TeamSerializer(serializers.ModelSerializer):
 class PlayerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Player
-        fields = ["player_id", "name", "position", "height_in", "weight", "dob"]
+        fields = [
+            "player_id",
+            "name",
+            "position",
+            "height_in",
+            "weight",
+            "dob",
+            "teams",
+        ]

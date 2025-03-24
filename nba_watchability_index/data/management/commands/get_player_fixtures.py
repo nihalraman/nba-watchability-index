@@ -24,7 +24,7 @@ class Command(BaseCommand):
         )
         player_df["Birth Date"] = pd.to_datetime(player_df["Birth Date"])
 
-        # create fixture
+        # create player fixture
         player_fixtures = []
         for _, row in player_df.iterrows():
             cur_player = {}
@@ -51,8 +51,36 @@ class Command(BaseCommand):
 
             player_fixtures.append(cur_player)
 
+        # create playerteam fixture
+        dfs = pd.read_csv(
+            "https://drive.usercontent.google.com/download?export=download&confirm=t&id=148vVQMSjlxfTJfxZBWd5pcTzvKpoGBs4"
+        )
+
+        player_team = (
+            dfs.groupby(["Player", "Tm"])["Date"]
+            .apply(lambda x: [x.min(), x.max()])
+            .reset_index()
+        )
+        player_team["first_game_date"] = player_team["Date"].apply(lambda x: x[0])
+        player_team["last_game_date"] = player_team["Date"].apply(lambda x: x[1])
+
+        player_team_fixtures = []
+        for idx, row in player_team.iterrows():
+            player_team_fixtures.append(
+                {
+                    "model": "data.PlayerTeam",
+                    "pk": idx + 1,
+                    "fields": {
+                        "player": row["Player"],
+                        "team": row["Tm"],
+                        "first_game": row["first_game_date"],
+                        "last_game": row["last_game_date"],
+                    },
+                }
+            )
+
         # Output the fixture to a JSON file
         with open("data/fixtures/player_data.json", "w") as f:
-            json.dump(player_fixtures, f, indent=4)
+            json.dump(player_fixtures + player_team_fixtures, f, indent=4)
 
         self.stdout.write(self.style.SUCCESS("Fixture generated successfully!"))
