@@ -29,6 +29,7 @@ class Team(models.Model):
     name = models.CharField(max_length=40)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
     franchise = models.ForeignKey(Franchise, on_delete=models.CASCADE)
+    active_team = models.BooleanField()
 
     def __str__(self):
         return f"{self.city} {self.nickname}"

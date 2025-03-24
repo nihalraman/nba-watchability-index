@@ -6,9 +6,10 @@ from rest_framework.response import Response
 from rest_framework.reverse import reverse
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
 
-from .models import City, Player, Team
+from .models import City, Franchise, Player, Team
 from .serializers import (
     CitySerializer,
+    FranchiseSerializer,
     PlayerSerializer,
     TeamSerializer,
     UserSerializer,
@@ -56,6 +57,13 @@ class CityViewSet(ModelViewSet):
             raise NotFound(f"City with name '{city_name}' not found.")
 
         return city
+
+
+class FranchiseViewSet(ModelViewSet):
+    """Retrieve, create, update, or delete franchises."""
+
+    queryset = Franchise.objects.all()
+    serializer_class = FranchiseSerializer
 
 
 class TeamViewSet(ModelViewSet):

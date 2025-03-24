@@ -1,315 +1,315 @@
 [
   {
     "fields": {
-      "actual city name": "Vancouver",
+      "actual_city_name": "Vancouver",
       "name": "Vancouver",
-      "population": 631000
+      "population": 631000.0
     },
     "model": "data.city",
     "pk": 1
   },
   {
     "fields": {
-      "actual city name": "Milwaukee",
+      "actual_city_name": "Milwaukee",
       "name": "Milwaukee",
-      "population": 595000
+      "population": 595000.0
     },
     "model": "data.city",
     "pk": 2
   },
   {
     "fields": {
-      "actual city name": "Denver",
+      "actual_city_name": "Denver",
       "name": "Denver",
-      "population": 715000
+      "population": 715000.0
     },
     "model": "data.city",
     "pk": 3
   },
   {
     "fields": {
-      "actual city name": "Los Angeles",
+      "actual_city_name": "Los Angeles",
       "name": "Los Angeles",
-      "population": 3898000
+      "population": 3898000.0
     },
     "model": "data.city",
     "pk": 4
   },
   {
     "fields": {
-      "actual city name": "Seattle",
+      "actual_city_name": "Seattle",
       "name": "Seattle",
-      "population": 769000
+      "population": 769000.0
     },
     "model": "data.city",
     "pk": 5
   },
   {
     "fields": {
-      "actual city name": "Sacramento",
+      "actual_city_name": "Sacramento",
       "name": "Sacramento",
-      "population": 525000
+      "population": 525000.0
     },
     "model": "data.city",
     "pk": 6
   },
   {
     "fields": {
-      "actual city name": "Pittsburgh",
+      "actual_city_name": "Pittsburgh",
       "name": "Pittsburgh",
-      "population": 300000
+      "population": 300000.0
     },
     "model": "data.city",
     "pk": 7
   },
   {
     "fields": {
-      "actual city name": "Buffalo",
+      "actual_city_name": "Buffalo",
       "name": "Buffalo",
-      "population": 277000
+      "population": 277000.0
     },
     "model": "data.city",
     "pk": 8
   },
   {
     "fields": {
-      "actual city name": "Orlando",
+      "actual_city_name": "Orlando",
       "name": "Orlando",
-      "population": 307000
+      "population": 307000.0
     },
     "model": "data.city",
     "pk": 9
   },
   {
     "fields": {
-      "actual city name": "Atlanta",
+      "actual_city_name": "Atlanta",
       "name": "Atlanta",
-      "population": 522000
+      "population": 522000.0
     },
     "model": "data.city",
     "pk": 10
   },
   {
     "fields": {
-      "actual city name": "Portland",
+      "actual_city_name": "Portland",
       "name": "Portland",
-      "population": 652000
+      "population": 652000.0
     },
     "model": "data.city",
     "pk": 11
   },
   {
     "fields": {
-      "actual city name": "Boston",
+      "actual_city_name": "Boston",
       "name": "Boston",
-      "population": 692000
+      "population": 692000.0
     },
     "model": "data.city",
     "pk": 12
   },
   {
     "fields": {
-      "actual city name": "Cincinnati",
+      "actual_city_name": "Cincinnati",
       "name": "Cincinnati",
-      "population": 303000
+      "population": 303000.0
     },
     "model": "data.city",
     "pk": 13
   },
   {
     "fields": {
-      "actual city name": "Syracuse",
+      "actual_city_name": "Syracuse",
       "name": "Syracuse",
-      "population": 142000
+      "population": 142000.0
     },
     "model": "data.city",
     "pk": 14
   },
   {
     "fields": {
-      "actual city name": "San Francisco",
+      "actual_city_name": "San Francisco",
       "name": "Golden State",
-      "population": 815000
+      "population": 815000.0
     },
     "model": "data.city",
     "pk": 15
   },
   {
     "fields": {
-      "actual city name": "Dallas",
+      "actual_city_name": "Dallas",
       "name": "Dallas",
-      "population": 1343000
+      "population": 1343000.0
     },
     "model": "data.city",
     "pk": 16
   },
   {
     "fields": {
-      "actual city name": "Houston",
+      "actual_city_name": "Houston",
       "name": "Houston",
-      "population": 2304000
+      "population": 2304000.0
     },
     "model": "data.city",
     "pk": 17
   },
   {
     "fields": {
-      "actual city name": "Philadelphia",
+      "actual_city_name": "Philadelphia",
       "name": "Philadelphia",
-      "population": 1610000
+      "population": 1610000.0
     },
     "model": "data.city",
     "pk": 18
   },
   {
     "fields": {
-      "actual city name": "Indianapolis",
+      "actual_city_name": "Indianapolis",
       "name": "Indiana",
-      "population": 887000
+      "population": 887000.0
     },
     "model": "data.city",
     "pk": 19
   },
   {
     "fields": {
-      "actual city name": "St. Louis\u00a0",
+      "actual_city_name": "St. Louis\u00a0",
       "name": "St. Louis\u00a0",
-      "population": 293000
+      "population": 293000.0
     },
     "model": "data.city",
     "pk": 20
   },
   {
     "fields": {
-      "actual city name": "Baltimore",
+      "actual_city_name": "Baltimore",
       "name": "Baltimore",
-      "population": 576000
+      "population": 576000.0
     },
     "model": "data.city",
     "pk": 21
   },
   {
     "fields": {
-      "actual city name": "Detroit",
+      "actual_city_name": "Detroit",
       "name": "Detroit",
-      "population": 632000
+      "population": 632000.0
     },
     "model": "data.city",
     "pk": 22
   },
   {
     "fields": {
-      "actual city name": "Oklahoma City",
+      "actual_city_name": "Oklahoma City",
       "name": "Oklahoma City",
-      "population": 655000
+      "population": 655000.0
     },
     "model": "data.city",
     "pk": 23
   },
   {
     "fields": {
-      "actual city name": "Phoenix",
+      "actual_city_name": "Phoenix",
       "name": "Phoenix",
-      "population": 1608000
+      "population": 1608000.0
     },
     "model": "data.city",
     "pk": 24
   },
   {
     "fields": {
-      "actual city name": "Brooklyn",
+      "actual_city_name": "Brooklyn",
       "name": "Brooklyn",
-      "population": 2736000
+      "population": 2736000.0
     },
     "model": "data.city",
     "pk": 25
   },
   {
     "fields": {
-      "actual city name": "St. Louis",
+      "actual_city_name": "St. Louis",
       "name": "St. Louis",
-      "population": 293000
+      "population": 293000.0
     },
     "model": "data.city",
     "pk": 26
   },
   {
     "fields": {
-      "actual city name": "San Diego",
+      "actual_city_name": "San Diego",
       "name": "San Diego",
-      "population": 1425000
+      "population": 1425000.0
     },
     "model": "data.city",
     "pk": 27
   },
   {
     "fields": {
-      "actual city name": "Washington",
+      "actual_city_name": "Washington",
       "name": "Washington",
-      "population": 705000
+      "population": 705000.0
     },
     "model": "data.city",
     "pk": 28
   },
   {
     "fields": {
-      "actual city name": "New York",
+      "actual_city_name": "New York",
       "name": "New York",
-      "population": 8336000
+      "population": 8336000.0
     },
     "model": "data.city",
     "pk": 29
   },
   {
     "fields": {
-      "actual city name": "Toronto",
+      "actual_city_name": "Toronto",
       "name": "Toronto",
-      "population": 2732000
+      "population": 2732000.0
     },
     "model": "data.city",
     "pk": 30
   },
   {
     "fields": {
-      "actual city name": "Miami",
+      "actual_city_name": "Miami",
       "name": "Miami",
-      "population": 439000
+      "population": 439000.0
     },
     "model": "data.city",
     "pk": 31
   },
   {
     "fields": {
-      "actual city name": "New Orleans",
+      "actual_city_name": "New Orleans",
       "name": "New Orleans",
-      "population": 383000
+      "population": 383000.0
     },
     "model": "data.city",
     "pk": 32
   },
   {
     "fields": {
-      "actual city name": "Memphis",
+      "actual_city_name": "Memphis",
       "name": "Memphis",
-      "population": 633000
+      "population": 633000.0
     },
     "model": "data.city",
     "pk": 33
   },
   {
     "fields": {
-      "actual city name": "Charlotte",
+      "actual_city_name": "Charlotte",
       "name": "Charlotte",
-      "population": 912000
+      "population": 912000.0
     },
     "model": "data.city",
     "pk": 34
   },
   {
     "fields": {
-      "actual city name": "Chicago",
+      "actual_city_name": "Chicago",
       "name": "Chicago",
-      "population": 2746000
+      "population": 2746000.0
     },
     "model": "data.city",
     "pk": 35
@@ -323,99 +323,99 @@
   },
   {
     "fields": {
-      "actual city name": "East Rutherford",
+      "actual_city_name": "East Rutherford",
       "name": "New Jersey",
-      "population": 10421
+      "population": 10421.0
     },
     "model": "data.city",
     "pk": 37
   },
   {
     "fields": {
-      "actual city name": "Minneapolis",
+      "actual_city_name": "Minneapolis",
       "name": "Minnesota",
-      "population": 429000
+      "population": 429000.0
     },
     "model": "data.city",
     "pk": 38
   },
   {
     "fields": {
-      "actual city name": "Cleveland",
+      "actual_city_name": "Cleveland",
       "name": "Cleveland",
-      "population": 372000
+      "population": 372000.0
     },
     "model": "data.city",
     "pk": 39
   },
   {
     "fields": {
-      "actual city name": "Salt Lake City",
+      "actual_city_name": "Salt Lake City",
       "name": "Utah",
-      "population": 199000
+      "population": 199000.0
     },
     "model": "data.city",
     "pk": 40
   },
   {
     "fields": {
-      "actual city name": "Louisville",
+      "actual_city_name": "Louisville",
       "name": "Kentucky",
-      "population": 622981
+      "population": 622981.0
     },
     "model": "data.city",
     "pk": 41
   },
   {
     "fields": {
-      "actual city name": "San Antonio",
+      "actual_city_name": "San Antonio",
       "name": "San Antonio",
-      "population": 1434000
+      "population": 1434000.0
     },
     "model": "data.city",
     "pk": 42
   },
   {
     "fields": {
-      "actual city name": "Washington, DC",
+      "actual_city_name": "Washington, DC",
       "name": "Washington",
-      "population": 705000
+      "population": 705000.0
     },
     "model": "data.city",
     "pk": 43
   },
   {
     "fields": {
-      "actual city name": "San Francisco",
+      "actual_city_name": "San Francisco",
       "name": "San Francisco",
-      "population": 815000
+      "population": 815000.0
     },
     "model": "data.city",
     "pk": 44
   },
   {
     "fields": {
-      "actual city name": "Anaheim",
+      "actual_city_name": "Anaheim",
       "name": "Anaheim",
-      "population": 354000
+      "population": 354000.0
     },
     "model": "data.city",
     "pk": 45
   },
   {
     "fields": {
-      "actual city name": "Kansas City",
+      "actual_city_name": "Kansas City",
       "name": "Kansas City",
-      "population": 508000
+      "population": 508000.0
     },
     "model": "data.city",
     "pk": 46
   },
   {
     "fields": {
-      "actual city name": "Miami",
+      "actual_city_name": "Miami",
       "name": "Florida",
-      "population": 439000
+      "population": 439000.0
     },
     "model": "data.city",
     "pk": 47
@@ -429,129 +429,120 @@
   },
   {
     "fields": {
-      "actual city name": "Oakland",
+      "actual_city_name": "Oakland",
       "name": "Oakland",
-      "population": 440000
+      "population": 440000.0
     },
     "model": "data.city",
     "pk": 49
   },
   {
     "fields": {
-      "actual city name": "Minneapolis",
-      "name": "Minnesota",
-      "population": "Minneapolis"
+      "actual_city_name": "Fort Wayne",
+      "name": "Fort Wayne",
+      "population": 267000.0
     },
     "model": "data.city",
     "pk": 50
   },
   {
     "fields": {
-      "actual city name": "Fort Wayne",
-      "name": "Fort Wayne",
-      "population": 267000
+      "actual_city_name": "Indianapolis",
+      "name": "Indianapolis",
+      "population": 887000.0
     },
     "model": "data.city",
     "pk": 51
   },
   {
     "fields": {
-      "actual city name": "Indianapolis",
-      "name": "Indianapolis",
-      "population": 887000
+      "actual_city_name": "Norfolk, VA",
+      "name": "Virginia",
+      "population": 247000.0
     },
     "model": "data.city",
     "pk": 52
   },
   {
     "fields": {
-      "actual city name": "Norfolk, VA",
-      "name": "Virginia",
-      "population": 247000
+      "actual_city_name": "Minneapolis",
+      "name": "Minneapolis",
+      "population": 429000.0
     },
     "model": "data.city",
     "pk": 53
   },
   {
     "fields": {
-      "actual city name": "Minneapolis",
-      "name": "Minneapolis",
-      "population": 429000
+      "actual_city_name": "Moline",
+      "name": "Tri-Cities",
+      "population": 43000.0
     },
     "model": "data.city",
     "pk": 54
   },
   {
     "fields": {
-      "actual city name": "Moline",
-      "name": "Tri-Cities",
-      "population": 43000
+      "actual_city_name": "Fort Worth",
+      "name": "Texas",
+      "population": 927000.0
     },
     "model": "data.city",
     "pk": 55
   },
   {
     "fields": {
-      "actual city name": "Fort Worth",
-      "name": "Texas",
-      "population": 927000
+      "actual_city_name": "Providence",
+      "name": "Providence",
+      "population": 179000.0
     },
     "model": "data.city",
     "pk": 56
   },
   {
     "fields": {
-      "actual city name": "Providence",
-      "name": "Providence",
-      "population": 179000
+      "actual_city_name": "Anderson",
+      "name": "Anderson",
+      "population": 56000.0
     },
     "model": "data.city",
     "pk": 57
   },
   {
     "fields": {
-      "actual city name": "Anderson",
-      "name": "Anderson",
-      "population": 56000
+      "actual_city_name": "Waterloo",
+      "name": "Waterloo",
+      "population": 68000.0
     },
     "model": "data.city",
     "pk": 58
   },
   {
     "fields": {
-      "actual city name": "Waterloo",
-      "name": "Waterloo",
-      "population": 68000
+      "actual_city_name": "Greensboro",
+      "name": "Carolina",
+      "population": 299000.0
     },
     "model": "data.city",
     "pk": 59
   },
   {
     "fields": {
-      "actual city name": "Greensboro",
-      "name": "Carolina",
-      "population": 299000
+      "actual_city_name": "Sheboygan",
+      "name": "Sheboygan",
+      "population": 49000.0
     },
     "model": "data.city",
     "pk": 60
   },
   {
     "fields": {
-      "actual city name": "Sheboygan",
-      "name": "Sheboygan",
-      "population": 49000
+      "actual_city_name": "Rochester",
+      "name": "Rochester",
+      "population": 211000.0
     },
     "model": "data.city",
     "pk": 61
-  },
-  {
-    "fields": {
-      "actual city name": "Rochester",
-      "name": "Rochester",
-      "population": 211000
-    },
-    "model": "data.city",
-    "pk": 62
   },
   {
     "fields": {
@@ -933,6 +924,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 1,
       "franchise": 1,
       "name": "Grizzlies"
@@ -942,6 +934,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 2,
       "franchise": 2,
       "name": "Bucks"
@@ -951,6 +944,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 3,
       "franchise": 3,
       "name": "Nuggets"
@@ -960,6 +954,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 4,
       "franchise": 4,
       "name": "Lakers"
@@ -969,6 +964,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 5,
       "franchise": 5,
       "name": "SuperSonics"
@@ -978,6 +974,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 6,
       "franchise": 6,
       "name": "Kings"
@@ -987,6 +984,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 7,
       "franchise": 7,
       "name": "Ironmen"
@@ -996,6 +994,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 8,
       "franchise": 8,
       "name": "Braves"
@@ -1005,6 +1004,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 9,
       "franchise": 9,
       "name": "Magic"
@@ -1014,6 +1014,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 10,
       "franchise": 10,
       "name": "Hawks"
@@ -1023,6 +1024,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 11,
       "franchise": 11,
       "name": "Trail Blazers"
@@ -1032,6 +1034,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 12,
       "franchise": 12,
       "name": "Celtics"
@@ -1041,6 +1044,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 13,
       "franchise": 6,
       "name": "Royals"
@@ -1050,6 +1054,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 14,
       "franchise": 13,
       "name": "Nationals"
@@ -1059,6 +1064,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 15,
       "franchise": 14,
       "name": "Warriors"
@@ -1068,6 +1074,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 16,
       "franchise": 15,
       "name": "Mavericks"
@@ -1077,6 +1084,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 17,
       "franchise": 16,
       "name": "Rockets"
@@ -1086,6 +1094,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 18,
       "franchise": 13,
       "name": "76ers"
@@ -1095,6 +1104,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 19,
       "franchise": 17,
       "name": "Pacers"
@@ -1104,6 +1114,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 20,
       "franchise": 18,
       "name": "Bombers"
@@ -1113,6 +1124,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 21,
       "franchise": 19,
       "name": "Bullets"
@@ -1122,6 +1134,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 22,
       "franchise": 20,
       "name": "Pistons"
@@ -1131,6 +1144,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 23,
       "franchise": 5,
       "name": "Thunder"
@@ -1140,6 +1154,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 24,
       "franchise": 21,
       "name": "Suns"
@@ -1149,6 +1164,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 25,
       "franchise": 22,
       "name": "Nets"
@@ -1158,6 +1174,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 26,
       "franchise": 23,
       "name": "Spirits of"
@@ -1167,6 +1184,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 27,
       "franchise": 16,
       "name": "Rockets"
@@ -1176,6 +1194,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 27,
       "franchise": 24,
       "name": "Conquistadors"
@@ -1185,6 +1204,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 28,
       "franchise": 25,
       "name": "Bullets"
@@ -1194,6 +1214,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 29,
       "franchise": 26,
       "name": "Knicks"
@@ -1203,6 +1224,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 30,
       "franchise": 27,
       "name": "Raptors"
@@ -1212,6 +1234,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 31,
       "franchise": 28,
       "name": "Heat"
@@ -1221,6 +1244,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 4,
       "franchise": 8,
       "name": "Clippers"
@@ -1230,6 +1254,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 32,
       "franchise": 29,
       "name": "Pelicans"
@@ -1239,6 +1264,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 33,
       "franchise": 1,
       "name": "Grizzlies"
@@ -1248,6 +1274,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 34,
       "franchise": 30,
       "name": "Hornets-Previous"
@@ -1257,6 +1284,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 35,
       "franchise": 31,
       "name": "Bulls"
@@ -1266,6 +1294,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 32,
       "franchise": 32,
       "name": "Jazz"
@@ -1275,6 +1304,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 36,
       "franchise": 6,
       "name": "Kings"
@@ -1284,6 +1314,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 37,
       "franchise": 22,
       "name": "Nets"
@@ -1293,6 +1324,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 34,
       "franchise": 30,
       "name": "Bobcats"
@@ -1302,6 +1334,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 38,
       "franchise": 33,
       "name": "Timberwolves"
@@ -1311,6 +1344,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 39,
       "franchise": 34,
       "name": "Cavaliers"
@@ -1320,6 +1354,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 40,
       "franchise": 32,
       "name": "Jazz"
@@ -1329,6 +1364,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 41,
       "franchise": 35,
       "name": "Colonels"
@@ -1338,6 +1374,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 42,
       "franchise": 36,
       "name": "Spurs"
@@ -1347,6 +1384,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 19,
       "franchise": 17,
       "name": "Pacers-ABA"
@@ -1356,6 +1394,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 32,
       "franchise": 29,
       "name": "Hornets"
@@ -1365,6 +1404,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 28,
       "franchise": 37,
       "name": "Wizards"
@@ -1374,6 +1414,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 44,
       "franchise": 14,
       "name": "Warriors"
@@ -1383,6 +1424,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 45,
       "franchise": 38,
       "name": "Amigos"
@@ -1392,6 +1434,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 46,
       "franchise": 6,
       "name": "Kings"
@@ -1401,6 +1444,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 47,
       "franchise": 39,
       "name": "Floridians"
@@ -1410,6 +1454,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 48,
       "franchise": 29,
       "name": "Hornets"
@@ -1419,6 +1464,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 37,
       "franchise": 22,
       "name": "Americans"
@@ -1428,6 +1474,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 31,
       "franchise": 39,
       "name": "Floridians"
@@ -1437,6 +1484,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 4,
       "franchise": 38,
       "name": "Stars"
@@ -1446,6 +1494,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 49,
       "franchise": 40,
       "name": "Oaks"
@@ -1455,6 +1504,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 29,
       "franchise": 22,
       "name": "Nets-ABA"
@@ -1464,6 +1514,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 38,
       "franchise": 41,
       "name": "Pipers"
@@ -1473,6 +1524,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 3,
       "franchise": 3,
       "name": "Rockets"
@@ -1482,6 +1534,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 27,
       "franchise": 8,
       "name": "Clippers"
@@ -1491,6 +1544,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 18,
       "franchise": 14,
       "name": "Warriors"
@@ -1500,6 +1554,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 29,
       "franchise": 22,
       "name": "Nets"
@@ -1509,6 +1564,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 33,
       "franchise": 42,
       "name": "Tams"
@@ -1518,6 +1574,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 26,
       "franchise": 10,
       "name": "Hawks"
@@ -1527,7 +1584,8 @@
   },
   {
     "fields": {
-      "city": 51,
+      "active_team": false,
+      "city": 50,
       "franchise": 20,
       "name": "Pistons"
     },
@@ -1536,6 +1594,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 22,
       "franchise": 43,
       "name": "Falcons"
@@ -1545,6 +1604,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 21,
       "franchise": 37,
       "name": "Bullets"
@@ -1554,6 +1614,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 42,
       "franchise": 36,
       "name": "Spurs-ABA"
@@ -1563,6 +1624,7 @@
   },
   {
     "fields": {
+      "active_team": true,
       "city": 34,
       "franchise": 30,
       "name": "Hornets"
@@ -1572,6 +1634,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 35,
       "franchise": 44,
       "name": "Stags"
@@ -1581,6 +1644,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 7,
       "franchise": 41,
       "name": "Condors"
@@ -1590,7 +1654,8 @@
   },
   {
     "fields": {
-      "city": 52,
+      "active_team": false,
+      "city": 51,
       "franchise": 45,
       "name": "Olympians"
     },
@@ -1599,7 +1664,8 @@
   },
   {
     "fields": {
-      "city": 53,
+      "active_team": false,
+      "city": 52,
       "franchise": 40,
       "name": "Squires"
     },
@@ -1608,6 +1674,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 28,
       "franchise": 46,
       "name": "Capitols"
@@ -1617,6 +1684,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 28,
       "franchise": 40,
       "name": "Capitols-ABA"
@@ -1626,6 +1694,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 3,
       "franchise": 47,
       "name": "Nuggets-Defunct"
@@ -1635,6 +1704,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 39,
       "franchise": 48,
       "name": "Rebels"
@@ -1644,7 +1714,8 @@
   },
   {
     "fields": {
-      "city": 54,
+      "active_team": false,
+      "city": 53,
       "franchise": 4,
       "name": "Lakers"
     },
@@ -1653,6 +1724,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 16,
       "franchise": 36,
       "name": "Chaparrals"
@@ -1662,7 +1734,8 @@
   },
   {
     "fields": {
-      "city": 55,
+      "active_team": false,
+      "city": 54,
       "franchise": 10,
       "name": "Blackhawks"
     },
@@ -1671,7 +1744,8 @@
   },
   {
     "fields": {
-      "city": 56,
+      "active_team": false,
+      "city": 55,
       "franchise": 36,
       "name": "Chaparrals"
     },
@@ -1680,6 +1754,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 40,
       "franchise": 38,
       "name": "Stars"
@@ -1689,6 +1764,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 17,
       "franchise": 23,
       "name": "Mavericks"
@@ -1698,6 +1774,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 3,
       "franchise": 3,
       "name": "Nuggets-ABA"
@@ -1707,6 +1784,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 2,
       "franchise": 10,
       "name": "Hawks"
@@ -1716,7 +1794,8 @@
   },
   {
     "fields": {
-      "city": 57,
+      "active_team": false,
+      "city": 56,
       "franchise": 49,
       "name": "Steamrollers"
     },
@@ -1725,6 +1804,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 35,
       "franchise": 37,
       "name": "Zephyrs"
@@ -1734,6 +1814,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 35,
       "franchise": 37,
       "name": "Packers"
@@ -1743,6 +1824,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 7,
       "franchise": 41,
       "name": "Pipers"
@@ -1752,6 +1834,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 30,
       "franchise": 50,
       "name": "Huskies"
@@ -1761,7 +1844,8 @@
   },
   {
     "fields": {
-      "city": 52,
+      "active_team": false,
+      "city": 51,
       "franchise": 51,
       "name": "Jets"
     },
@@ -1770,7 +1854,8 @@
   },
   {
     "fields": {
-      "city": 58,
+      "active_team": false,
+      "city": 57,
       "franchise": 52,
       "name": "Packers"
     },
@@ -1779,7 +1864,8 @@
   },
   {
     "fields": {
-      "city": 59,
+      "active_team": false,
+      "city": 58,
       "franchise": 53,
       "name": "Hawks"
     },
@@ -1788,6 +1874,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 32,
       "franchise": 42,
       "name": "Buccaneers"
@@ -1797,7 +1884,8 @@
   },
   {
     "fields": {
-      "city": 60,
+      "active_team": false,
+      "city": 59,
       "franchise": 23,
       "name": "Cougars"
     },
@@ -1806,7 +1894,8 @@
   },
   {
     "fields": {
-      "city": 61,
+      "active_team": false,
+      "city": 60,
       "franchise": 54,
       "name": "Red Skins"
     },
@@ -1815,7 +1904,8 @@
   },
   {
     "fields": {
-      "city": 62,
+      "active_team": false,
+      "city": 61,
       "franchise": 6,
       "name": "Royals"
     },
@@ -1824,6 +1914,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 33,
       "franchise": 42,
       "name": "Sounds"
@@ -1833,6 +1924,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 33,
       "franchise": 42,
       "name": "Pros"
@@ -1842,6 +1934,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 28,
       "franchise": 46,
       "name": "Capitals"
@@ -1851,6 +1944,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 38,
       "franchise": 39,
       "name": "Muskies"
@@ -1860,6 +1954,7 @@
   },
   {
     "fields": {
+      "active_team": false,
       "city": 27,
       "franchise": 24,
       "name": "Sails"

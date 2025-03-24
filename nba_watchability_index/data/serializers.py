@@ -1,7 +1,7 @@
-from django.contrib.auth.models import Group, User
+from django.contrib.auth.models import User
 from rest_framework import serializers
 
-from .models import City, Player, Team
+from .models import City, Franchise, Player, Team
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -18,13 +18,21 @@ class CitySerializer(serializers.ModelSerializer):
         fields = ["id", "name", "actual_city_name", "population"]
 
 
+class FranchiseSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Franchise
+        # Include id and name for serialization
+        fields = ["id", "name"]
+
+
 class TeamSerializer(serializers.ModelSerializer):
 
     city = serializers.StringRelatedField()
+    franchise = serializers.StringRelatedField()
 
     class Meta:
         model = Team
-        fields = ["nickname", "city"]
+        fields = ["team_id", "name", "city", "franchise", "active_team"]
 
 
 class PlayerSerializer(serializers.ModelSerializer):
