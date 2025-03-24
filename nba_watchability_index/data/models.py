@@ -5,19 +5,30 @@ from django.db import models
 
 
 class City(models.Model):
-    name = models.CharField(max_length=20)
-    population = models.IntegerField(default=0)
+    name = models.CharField(max_length=40)
+    population = models.IntegerField(null=True)
     # if name is not a real city name (e.g., Golden State),
     # 'actual_city_name' provides real city name (e.g., Golden State maps to San Francisco)
-    actual_city_name = models.CharField(max_length=20, null=True)
+    actual_city_name = models.CharField(max_length=40, null=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Franchise(models.Model):
+    """Correspond to unique basketball reference franchises. Name defaults to current team name if available."""
+
+    name = models.CharField(max_length=40)
 
     def __str__(self):
         return self.name
 
 
 class Team(models.Model):
-    nickname = models.CharField(max_length=20)
+    team_id = models.CharField(max_length=3, primary_key=True)
+    name = models.CharField(max_length=40)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
+    franchise = models.ForeignKey(Franchise, on_delete=models.CASCADE)
 
     def __str__(self):
         return f"{self.city} {self.nickname}"

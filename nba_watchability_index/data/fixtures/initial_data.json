@@ -5,7 +5,7 @@
       "name": "Vancouver",
       "population": 631000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 1
   },
   {
@@ -14,7 +14,7 @@
       "name": "Milwaukee",
       "population": 595000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 2
   },
   {
@@ -23,7 +23,7 @@
       "name": "Denver",
       "population": 715000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 3
   },
   {
@@ -32,7 +32,7 @@
       "name": "Los Angeles",
       "population": 3898000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 4
   },
   {
@@ -41,7 +41,7 @@
       "name": "Seattle",
       "population": 769000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 5
   },
   {
@@ -50,7 +50,7 @@
       "name": "Sacramento",
       "population": 525000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 6
   },
   {
@@ -59,7 +59,7 @@
       "name": "Pittsburgh",
       "population": 300000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 7
   },
   {
@@ -68,7 +68,7 @@
       "name": "Buffalo",
       "population": 277000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 8
   },
   {
@@ -77,7 +77,7 @@
       "name": "Orlando",
       "population": 307000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 9
   },
   {
@@ -86,7 +86,7 @@
       "name": "Atlanta",
       "population": 522000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 10
   },
   {
@@ -95,7 +95,7 @@
       "name": "Portland",
       "population": 652000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 11
   },
   {
@@ -104,7 +104,7 @@
       "name": "Boston",
       "population": 692000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 12
   },
   {
@@ -113,7 +113,7 @@
       "name": "Cincinnati",
       "population": 303000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 13
   },
   {
@@ -122,7 +122,7 @@
       "name": "Syracuse",
       "population": 142000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 14
   },
   {
@@ -131,7 +131,7 @@
       "name": "Golden State",
       "population": 815000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 15
   },
   {
@@ -140,7 +140,7 @@
       "name": "Dallas",
       "population": 1343000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 16
   },
   {
@@ -149,7 +149,7 @@
       "name": "Houston",
       "population": 2304000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 17
   },
   {
@@ -158,7 +158,7 @@
       "name": "Philadelphia",
       "population": 1610000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 18
   },
   {
@@ -167,7 +167,7 @@
       "name": "Indiana",
       "population": 887000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 19
   },
   {
@@ -176,7 +176,7 @@
       "name": "St. Louis\u00a0",
       "population": 293000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 20
   },
   {
@@ -185,7 +185,7 @@
       "name": "Baltimore",
       "population": 576000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 21
   },
   {
@@ -194,7 +194,7 @@
       "name": "Detroit",
       "population": 632000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 22
   },
   {
@@ -203,7 +203,7 @@
       "name": "Oklahoma City",
       "population": 655000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 23
   },
   {
@@ -212,7 +212,7 @@
       "name": "Phoenix",
       "population": 1608000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 24
   },
   {
@@ -221,7 +221,7 @@
       "name": "Brooklyn",
       "population": 2736000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 25
   },
   {
@@ -230,7 +230,7 @@
       "name": "St. Louis",
       "population": 293000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 26
   },
   {
@@ -239,7 +239,7 @@
       "name": "San Diego",
       "population": 1425000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 27
   },
   {
@@ -248,7 +248,7 @@
       "name": "Washington",
       "population": 705000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 28
   },
   {
@@ -257,7 +257,7 @@
       "name": "New York",
       "population": 8336000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 29
   },
   {
@@ -266,7 +266,7 @@
       "name": "Toronto",
       "population": 2732000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 30
   },
   {
@@ -275,7 +275,7 @@
       "name": "Miami",
       "population": 439000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 31
   },
   {
@@ -284,7 +284,7 @@
       "name": "New Orleans",
       "population": 383000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 32
   },
   {
@@ -293,7 +293,7 @@
       "name": "Memphis",
       "population": 633000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 33
   },
   {
@@ -302,7 +302,7 @@
       "name": "Charlotte",
       "population": 912000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 34
   },
   {
@@ -311,14 +311,14 @@
       "name": "Chicago",
       "population": 2746000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 35
   },
   {
     "fields": {
       "name": "Kansas City-Omaha"
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 36
   },
   {
@@ -327,7 +327,7 @@
       "name": "New Jersey",
       "population": 10421
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 37
   },
   {
@@ -336,7 +336,7 @@
       "name": "Minnesota",
       "population": 429000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 38
   },
   {
@@ -345,7 +345,7 @@
       "name": "Cleveland",
       "population": 372000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 39
   },
   {
@@ -354,7 +354,7 @@
       "name": "Utah",
       "population": 199000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 40
   },
   {
@@ -363,7 +363,7 @@
       "name": "Kentucky",
       "population": 622981
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 41
   },
   {
@@ -372,7 +372,7 @@
       "name": "San Antonio",
       "population": 1434000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 42
   },
   {
@@ -381,7 +381,7 @@
       "name": "Washington",
       "population": 705000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 43
   },
   {
@@ -390,7 +390,7 @@
       "name": "San Francisco",
       "population": 815000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 44
   },
   {
@@ -399,7 +399,7 @@
       "name": "Anaheim",
       "population": 354000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 45
   },
   {
@@ -408,7 +408,7 @@
       "name": "Kansas City",
       "population": 508000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 46
   },
   {
@@ -417,14 +417,14 @@
       "name": "Florida",
       "population": 439000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 47
   },
   {
     "fields": {
       "name": "New Orleans/Oklahoma City"
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 48
   },
   {
@@ -433,7 +433,7 @@
       "name": "Oakland",
       "population": 440000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 49
   },
   {
@@ -442,7 +442,7 @@
       "name": "Minnesota",
       "population": "Minneapolis"
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 50
   },
   {
@@ -451,7 +451,7 @@
       "name": "Fort Wayne",
       "population": 267000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 51
   },
   {
@@ -460,7 +460,7 @@
       "name": "Indianapolis",
       "population": 887000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 52
   },
   {
@@ -469,7 +469,7 @@
       "name": "Virginia",
       "population": 247000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 53
   },
   {
@@ -478,7 +478,7 @@
       "name": "Minneapolis",
       "population": 429000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 54
   },
   {
@@ -487,7 +487,7 @@
       "name": "Tri-Cities",
       "population": 43000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 55
   },
   {
@@ -496,7 +496,7 @@
       "name": "Texas",
       "population": 927000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 56
   },
   {
@@ -505,7 +505,7 @@
       "name": "Providence",
       "population": 179000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 57
   },
   {
@@ -514,7 +514,7 @@
       "name": "Anderson",
       "population": 56000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 58
   },
   {
@@ -523,7 +523,7 @@
       "name": "Waterloo",
       "population": 68000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 59
   },
   {
@@ -532,7 +532,7 @@
       "name": "Carolina",
       "population": 299000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 60
   },
   {
@@ -541,7 +541,7 @@
       "name": "Sheboygan",
       "population": 49000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 61
   },
   {
@@ -550,7 +550,7 @@
       "name": "Rochester",
       "population": 211000
     },
-    "model": "data.franchise",
+    "model": "data.city",
     "pk": 62
   },
   {
